@@ -1,5 +1,7 @@
 # missingcloud
 
+## Introduction
+
 This project has a simple goal.  Collect cloud-related data you really
 want and make it available in a format that you can use
 programmatically.  Initially, this is focused on AWS-related stuff
