@@ -1,0 +1,633 @@
+{
+    "name" : "Amazon Web Services",
+    "description" : "Complete set of services and endpoints for AWS in JSON",
+    "source" : "http://docs.amazonwebservices.com/general/latest/gr/index.html?rande.html",
+    "services" : {
+	"Auto Scaling" : {
+	    "name": "autoscale",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "2009-05-15",
+	    "regions": [
+		{
+		    "endpoint": "autoscaling.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}, 
+		{
+		    "endpoint": "autoscaling.us-west-1.amazonaws.com", 
+		    "name": "us-west-1", 
+		    "description": "US-West (Northern California)"
+		}, 
+		{
+		    "endpoint": "autoscaling.eu-west-1.amazonaws.com", 
+		    "name": "eu-west-1", 
+		    "description": "EU (Ireland)"
+		}, 
+		{
+		    "endpoint": "autoscaling.ap-southeast-1.amazonaws.com", 
+		    "name": "ap-southeast-1", 
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "autoscaling.ap-northeast-1.amazonaws.com", 
+		    "name": "ap-northeast-1", 
+		    "description": "Asia Pacific (Tokyo)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"CloudFormation" : {
+	    "name": "cfn",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "2010-05-15",
+	    "regions": [
+		{
+		    "endpoint": "cloudformation.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}, 
+		{
+		    "endpoint": "cloudformation.us-west-1.amazonaws.com", 
+		    "name": "us-west-1", 
+		    "description": "US-West (Northern California)"
+		}, 
+		{
+		    "endpoint": "cloudformation.eu-west-1.amazonaws.com", 
+		    "name": "eu-west-1", 
+		    "description": "EU (Ireland)"
+		}, 
+		{
+		    "endpoint": "cloudformation.ap-southeast-1.amazonaws.com", 
+		    "name": "ap-southeast-1", 
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "cloudformation.ap-northeast-1.amazonaws.com", 
+		    "name": "ap-northeast-1", 
+		    "description": "Asia Pacific (Tokyo)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"CloudFront" : {
+	    "name": "cloudfront",
+	    "description": "",
+	    "authentication": "hmac-v2",
+	    "api_version" : "2010-08-01",
+	    "regions": [
+		{
+		    "endpoint": "cloudfront.amazonaws.com", 
+		    "name": "universal", 
+		    "description": "Universal endpoint"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"CloudWatch" : {
+	    "name": "cloudwatch",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "2010-08-01",
+	    "regions": [
+		{
+		    "endpoint": "monitoring.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}, 
+		{
+		    "endpoint": "monitoring.us-west-1.amazonaws.com", 
+		    "name": "us-west-1", 
+		    "description": "US-West (Northern California)"
+		}, 
+		{
+		    "endpoint": "monitoring.eu-west-1.amazonaws.com", 
+		    "name": "eu-west-1", 
+		    "description": "EU (Ireland)"
+		}, 
+		{
+		    "endpoint": "monitoring.ap-southeast-1.amazonaws.com", 
+		    "name": "ap-southeast-1", 
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "monitoring.ap-northeast-1.amazonaws.com", 
+		    "name": "ap-northeast-1", 
+		    "description": "Asia Pacific (Tokyo)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"DevPay" : {
+	    "name": "devpay",
+	    "description": "",
+	    "authentication": "devpay",
+	    "api_version" : "???",
+	    "regions": [
+		{
+		    "endpoint": "ls.amazonaws.com", 
+		    "name": "universal", 
+		    "description": "Universal endpoint"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"Elastic Beanstalk" : {
+	    "name": "elasticbeanstalk",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "2010-12-01",
+	    "regions": [
+		{
+		    "endpoint": "elasticbeanstalk.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"Elastic Compute Cloud" : {
+	    "name": "ec2",
+	    "description": "Elastic Compute Cloud",
+	    "authentication": "ec2",
+	    "api_version" : "2010-08-31",
+	    "regions": [
+		{
+		    "endpoint": "ec2.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}, 
+		{
+		    "endpoint": "ec2.us-west-1.amazonaws.com", 
+		    "name": "us-west-1", 
+		    "description": "US-West (Northern California)"
+		}, 
+		{
+		    "endpoint": "ec2.eu-west-1.amazonaws.com", 
+		    "name": "eu-west-1", 
+		    "description": "EU (Ireland)"
+		}, 
+		{
+		    "endpoint": "ec2.ap-southeast-1.amazonaws.com", 
+		    "name": "ap-southeast-1", 
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "ec2.ap-northeast-1.amazonaws.com", 
+		    "name": "ap-northeast-1", 
+		    "description": "Asia Pacific (Tokyo)"
+		}
+	    ],
+	    "instance_types" : {
+		"m1.small" : {
+		    "compute_units" : 1,
+		    "gpus" : 0,
+		    "ramMB" : 1700,
+		    "storageGB" : [10, 160],
+		    "i/o" : "moderate",
+		    "arch" : [32]},
+		"m1.large" : {
+		    "compute_units" : 4,
+		    "gpus" : 0,
+		    "ramMB" : 7500,
+		    "storageGB" : [10, 420, 420],
+		    "i/o" : "high",
+		    "arch" : [64]},
+		"m1.xlarge" : {
+		    "compute_units" : 8,
+		    "gpus" : 0,
+		    "ramMB" : 15000,
+		    "storageGB" : [10, 420, 420, 420, 420],
+		    "i/o" : "high",
+		    "arch" : [64]},
+		"t1.micro" : {
+		    "compute_units" : 2,
+		    "gpus" : 0,
+		    "ramMB" : 613,
+		    "storage" : [],
+		    "i/o" : "low",
+		    "arch" : [32,64]},
+		"c1.medium" : {
+		    "compute_units" : 5,
+		    "gpus" : 0,
+		    "ramMB" : 1700,
+		    "storageGB" : [10, 350],
+		    "i/o" : "moderate",
+		    "arch" : [32]},
+		"c1.xlarge" : {
+		    "compute_units" : 20,
+		    "gpus" : 0,
+		    "ramMB" : 7000,
+		    "storageGB" : [10, 420, 420, 420, 420],
+		    "i/o" : "high",
+		    "arch" : [64]},
+		"m2.xlarge" : {
+		    "compute_units" : 6.5,
+		    "gpus" : 0,
+		    "ramMB" : 17100,
+		    "storageGB" : [10, 420],
+		    "i/o" : "moderate",
+		    "arch" : [64]},
+		"m2.2xlarge" : {
+		    "compute_units" : 13,
+		    "gpus" : 0,
+		    "ramMB" : 34200,
+		    "storageGB" : [10, 840],
+		    "i/o" : "high",
+		    "arch" : [64]},
+		"m2.4xlarge" : {
+		    "compute_units" : 26,
+		    "gpus" : 0,
+		    "ramMB" : 68400,
+		    "storageGB" : [10, 840, 840],
+		    "i/o" : "high",
+		    "arch" : [64]},
+		"cc1.4xlarge" : {
+		    "compute_units" : 33.5,
+		    "gpus" : 0,
+		    "ramMB" : 23000,
+		    "storageGB" : [10, 840, 840],
+		    "i/o" : "very high",
+		    "arch" : [64]},
+		"cg1.4xlarge" : {
+		    "compute_units" : 33.5,
+		    "gpus" : 2,
+		    "ramMB" : 22000,
+		    "storageGB" : [10, 840, 840],
+		    "i/o" : "very high",
+		    "arch" : [64]}
+	    },
+	    "path": "/", 
+	    "port": 443
+	},
+	"Elastic Load Balancing" : {
+	    "name": "elb",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "2010-07-01",
+	    "regions": [
+		{
+		    "endpoint": "elasticloadbalancing.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}, 
+		{
+		    "endpoint": "elasticloadbalancing.us-west-1.amazonaws.com", 
+		    "name": "us-west-1", 
+		    "description": "US-West (Northern California)"
+		}, 
+		{
+		    "endpoint": "elasticloadbalancing.eu-west-1.amazonaws.com", 
+		    "name": "eu-west-1", 
+		    "description": "EU (Ireland)"
+		}, 
+		{
+		    "endpoint": "elasticloadbalancing.ap-southeast-1.amazonaws.com", 
+		    "name": "ap-southeast-1", 
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "elasticloadbalancing.ap-northeast-1.amazonaws.com", 
+		    "name": "ap-northeast-1", 
+		    "description": "Asia Pacific (Tokyo)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"Elastic Map Reduce" : {
+	    "name": "emr",
+	    "description": "Elastic Compute Cloud",
+	    "authentication": "sign-v2",
+	    "api_version" : "2009-03-31",
+	    "regions": [
+		{
+		    "endpoint": "elasticmapreduce.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}, 
+		{
+		    "endpoint": "elasticmapreduce.us-west-1.amazonaws.com", 
+		    "name": "us-west-1", 
+		    "description": "US-West (Northern California)"
+		}, 
+		{
+		    "endpoint": "elasticmapreduce.eu-west-1.amazonaws.com", 
+		    "name": "eu-west-1", 
+		    "description": "EU (Ireland)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"Flexible Payment Service" : {
+	    "name": "fps",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "???",
+	    "regions": [
+		{
+		    "endpoint": "authorize.payments-sandbox.amazon.com/cobranded-ui/actions/start",
+		    "name": "sandbox", 
+		    "description": "Sandbox for Co-Branded service requests."
+		}, 
+		{
+		    "endpoint": "authorize.payments.amazon.com/cobranded-ui/actions/start",
+		    "name": "production", 
+		    "description": "Production for Co-Branded service requests."
+		}, 
+		{
+		    "endpoint": "fps.sandbox.amazonaws.com",
+		    "name": "sandbox", 
+		    "description": "Sandbox for FPS actions"
+		}, 
+		{
+		    "endpoint": "fps.amazonaws.com",
+		    "name": "production", 
+		    "description": "Production for FPS actions"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"Identity & Access Management" : {
+	    "name": "iam",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "2010-05-08",
+	    "regions": [
+		{
+		    "endpoint": "iam.amazonaws.com", 
+		    "name": "universal", 
+		    "description": "Universal endpoint"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"Import/Export" : {
+	    "name": "importexport",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "???",
+	    "regions": [
+		{
+		    "endpoint": "importexport.amazonaws.com", 
+		    "name": "universal", 
+		    "description": "Universal endpoint"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"Mechanical Turk" : {
+	    "name": "mturk",
+	    "description": "",
+	    "authentication": "mturk",
+	    "api_version" : "2008-08-02",
+	    "regions": [
+		{
+		    "endpoint": "mechanicalturk.amazonaws.com", 
+		    "name": "universal", 
+		    "description": "Universal endpoint"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"Relational Data Service" : {
+	    "name": "rds",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "2009-10-16",
+	    "regions": [
+		{
+		    "endpoint": "rds.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}, 
+		{
+		    "endpoint": "rds.us-west-1.amazonaws.com", 
+		    "name": "us-west-1", 
+		    "description": "US-West (Northern California)"
+		}, 
+		{
+		    "endpoint": "rds.eu-west-1.amazonaws.com", 
+		    "name": "eu-west-1", 
+		    "description": "EU (Ireland)"
+		}, 
+		{
+		    "endpoint": "rds.ap-southeast-1.amazonaws.com", 
+		    "name": "ap-southeast-1", 
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "rds.ap-northeast-1.amazonaws.com", 
+		    "name": "ap-northeast-1", 
+		    "description": "Asia Pacific (Tokyo)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"Route 53" : {
+	    "name": "route53",
+	    "description": "",
+	    "authentication": "hmac-v3",
+	    "api_version" : "2010-10-01",
+	    "regions": [
+		{
+		    "endpoint": "route53.amazonaws.com", 
+		    "name": "universal", 
+		    "description": "Universal endpoint"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"Simple Email Service" : {
+	    "name": "ses",
+	    "description": "",
+	    "authentication": "hmac-v3",
+	    "api_version" : "2010-12-01",
+	    "regions": [
+		{
+		    "endpoint": "email.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"SimpleDB" : {
+	    "name": "sdb",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "2009-04-15",
+	    "regions": [
+		{
+		    "endpoint": "sdb.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}, 
+		{
+		    "endpoint": "sdb.us-west-1.amazonaws.com", 
+		    "name": "us-west-1", 
+		    "description": "US-West (Northern California)"
+		}, 
+		{
+		    "endpoint": "sdb.eu-west-1.amazonaws.com", 
+		    "name": "eu-west-1", 
+		    "description": "EU (Ireland)"
+		}, 
+		{
+		    "endpoint": "sdb.ap-southeast-1.amazonaws.com", 
+		    "name": "ap-southeast-1", 
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "sdb.ap-northeast-1.amazonaws.com", 
+		    "name": "ap-northeast-1", 
+		    "description": "Asia Pacific (Tokyo)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"Simple Notification Service" : {
+	    "name": "sns",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "2010-03-31",
+	    "regions": [
+		{
+		    "endpoint": "sns.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}, 
+		{
+		    "endpoint": "sns.us-west-1.amazonaws.com", 
+		    "name": "us-west-1", 
+		    "description": "US-West (Northern California)"
+		}, 
+		{
+		    "endpoint": "sns.eu-west-1.amazonaws.com", 
+		    "name": "eu-west-1", 
+		    "description": "EU (Ireland)"
+		}, 
+		{
+		    "endpoint": "sns.ap-southeast-1.amazonaws.com", 
+		    "name": "ap-southeast-1", 
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "sns.ap-northeast-1.amazonaws.com", 
+		    "name": "ap-northeast-1", 
+		    "description": "Asia Pacific (Tokyo)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"Simple Queue Service" : {
+	    "name": "sqs",
+	    "description": "2009-02-01",
+	    "authentication": "sign-v2",
+	    "api_version" : "",
+	    "regions": [
+		{
+		    "endpoint": "sqs.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}, 
+		{
+		    "endpoint": "sqs.us-west-1.amazonaws.com", 
+		    "name": "us-west-1", 
+		    "description": "US-West (Northern California)"
+		}, 
+		{
+		    "endpoint": "sqs.eu-west-1.amazonaws.com", 
+		    "name": "eu-west-1", 
+		    "description": "EU (Ireland)"
+		}, 
+		{
+		    "endpoint": "sqs.ap-southeast-1.amazonaws.com", 
+		    "name": "ap-southeast-1", 
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "sqs.ap-northeast-1.amazonaws.com", 
+		    "name": "ap-northeast-1", 
+		    "description": "Asia Pacific (Tokyo)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"Simple Storage Service" : {
+	    "name": "s3",
+	    "description": "",
+	    "authentication": "hmac-v1",
+	    "api_version" : "",
+	    "regions": [
+		{
+		    "endpoint": "s3.amazonaws.com", 
+		    "name": "", 
+		    "description": "US Standard"
+		}, 
+		{
+		    "endpoint": "s3.us-west-1.amazonaws.com", 
+		    "name": "us-west-1", 
+		    "description": "US-West (Northern California)"
+		}, 
+		{
+		    "endpoint": "s3.eu-west-1.amazonaws.com", 
+		    "name": "eu-west-1", 
+		    "description": "EU (Ireland)"
+		}, 
+		{
+		    "endpoint": "s3.ap-southeast-1.amazonaws.com", 
+		    "name": "ap-southeast-1", 
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "s3.ap-northeast-1.amazonaws.com", 
+		    "name": "ap-northeast-1", 
+		    "description": "Asia Pacific (Tokyo)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"Virtual Private Cloud" : {
+	    "name": "vpc",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "",
+	    "regions": [
+		{
+		    "endpoint": "vpc.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}, 
+		{
+		    "endpoint": "vpc.us-west-1.amazonaws.com", 
+		    "name": "us-west-1", 
+		    "description": "US-West (Northern California)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	}
+    }
+}
+
+    
