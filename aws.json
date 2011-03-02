@@ -126,8 +126,8 @@
 	"DevPay" : {
 	    "name": "devpay",
 	    "description": "",
-	    "authentication": "devpay",
-	    "api_version" : "???",
+	    "authentication": "sign-v2",
+	    "api_version" : "2010-06-03",
 	    "regions": [
 		{
 		    "endpoint": "ls.amazonaws.com", 
@@ -154,7 +154,7 @@
 	    "port": 443
 	},
 	"Elastic Compute Cloud" : {
-	    "name": "ec2",
+	    "name": "sign-v2",
 	    "description": "Elastic Compute Cloud",
 	    "authentication": "ec2",
 	    "api_version" : "2010-08-31",
@@ -376,7 +376,7 @@
 	    "name": "importexport",
 	    "description": "",
 	    "authentication": "sign-v2",
-	    "api_version" : "???",
+	    "api_version" : "2010-06-03",
 	    "regions": [
 		{
 		    "endpoint": "importexport.amazonaws.com", 
