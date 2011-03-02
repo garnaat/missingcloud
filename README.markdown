@@ -16,3 +16,7 @@ files that contain this information and provide access to it.
 
 If there is other data you would find useful, let me know or just fork
 the project and send a pull request.
+
+## IP Ranges
+
+The IP address ranges for each EC2 region is calculated using https://gist.github.com/559397.
