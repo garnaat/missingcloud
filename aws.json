@@ -8,6 +8,7 @@
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2009-05-15",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "autoscaling.us-east-1.amazonaws.com", 
@@ -43,6 +44,7 @@
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-05-15",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "cloudformation.us-east-1.amazonaws.com", 
@@ -78,6 +80,7 @@
 	    "description": "",
 	    "authentication": "hmac-v2",
 	    "api_version" : "2010-08-01",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "cloudfront.amazonaws.com", 
@@ -93,6 +96,7 @@
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-08-01",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "monitoring.us-east-1.amazonaws.com", 
@@ -128,6 +132,7 @@
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-06-03",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "ls.amazonaws.com", 
@@ -143,6 +148,7 @@
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-12-01",
+	    "status" : "beta",
 	    "regions": [
 		{
 		    "endpoint": "elasticbeanstalk.us-east-1.amazonaws.com", 
@@ -158,6 +164,7 @@
 	    "description": "Elastic Compute Cloud",
 	    "authentication": "ec2",
 	    "api_version" : "2010-08-31",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "ec2.us-east-1.amazonaws.com", 
@@ -292,6 +299,7 @@
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-07-01",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "elasticloadbalancing.us-east-1.amazonaws.com", 
@@ -327,6 +335,7 @@
 	    "description": "Elastic Compute Cloud",
 	    "authentication": "sign-v2",
 	    "api_version" : "2009-03-31",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "elasticmapreduce.us-east-1.amazonaws.com", 
@@ -352,6 +361,7 @@
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "???",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "authorize.payments-sandbox.amazon.com/cobranded-ui/actions/start",
@@ -382,6 +392,7 @@
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-05-08",
+	    "status" : "beta",
 	    "regions": [
 		{
 		    "endpoint": "iam.amazonaws.com", 
@@ -397,6 +408,7 @@
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-06-03",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "importexport.amazonaws.com", 
@@ -412,6 +424,7 @@
 	    "description": "",
 	    "authentication": "mturk",
 	    "api_version" : "2008-08-02",
+	    "status" : "beta",
 	    "regions": [
 		{
 		    "endpoint": "mechanicalturk.amazonaws.com", 
@@ -427,6 +440,7 @@
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2009-10-16",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "rds.us-east-1.amazonaws.com", 
@@ -462,6 +476,7 @@
 	    "description": "",
 	    "authentication": "hmac-v3",
 	    "api_version" : "2010-10-01",
+	    "status" : "beta",
 	    "regions": [
 		{
 		    "endpoint": "route53.amazonaws.com", 
@@ -477,6 +492,7 @@
 	    "description": "",
 	    "authentication": "hmac-v3",
 	    "api_version" : "2010-12-01",
+	    "status" : "beta",
 	    "regions": [
 		{
 		    "endpoint": "email.us-east-1.amazonaws.com", 
@@ -492,6 +508,7 @@
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2009-04-15",
+	    "status" : "beta",
 	    "regions": [
 		{
 		    "endpoint": "sdb.us-east-1.amazonaws.com", 
@@ -527,6 +544,7 @@
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-03-31",
+	    "status" : "beta",
 	    "regions": [
 		{
 		    "endpoint": "sns.us-east-1.amazonaws.com", 
@@ -562,6 +580,7 @@
 	    "description": "2009-02-01",
 	    "authentication": "sign-v2",
 	    "api_version" : "",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "sqs.us-east-1.amazonaws.com", 
@@ -597,6 +616,7 @@
 	    "description": "",
 	    "authentication": "hmac-v1",
 	    "api_version" : "",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "s3.amazonaws.com", 
@@ -632,6 +652,7 @@
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "",
+	    "status" : "beta",
 	    "regions": [
 		{
 		    "endpoint": "vpc.us-east-1.amazonaws.com", 
