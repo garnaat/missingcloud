@@ -21,4 +21,4 @@ the project and send a pull request.
 
 ## IP Ranges
 
-The IP address ranges for each EC2 region is calculated using https://gist.github.com/559397.
+The IP address ranges for each EC2 region were discovered using https://gist.github.com/559397.
