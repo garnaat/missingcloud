@@ -676,6 +676,22 @@
 	    ], 
 	    "path": "/", 
 	    "port": 443
+	},
+	"ElastiCache" : {
+	    "name": "elasticache",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "2011-07-15",
+	    "status" : "beta",
+	    "regions": [
+		{
+		    "endpoint": "elasticache.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
 	}
     }
 }
