@@ -21,6 +21,11 @@
 		    "description": "US-West (Northern California)"
 		}, 
 		{
+		    "endpoint": "autoscaling.us-west-2.amazonaws.com", 
+		    "name": "us-west-2", 
+		    "description": "US-West (Oregon)"
+		}, 
+		{
 		    "endpoint": "autoscaling.eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
 		    "description": "EU (Ireland)"
@@ -55,6 +60,11 @@
 		    "endpoint": "cloudformation.us-west-1.amazonaws.com", 
 		    "name": "us-west-1", 
 		    "description": "US-West (Northern California)"
+		}, 
+		{
+		    "endpoint": "cloudformation.us-west-2.amazonaws.com", 
+		    "name": "us-west-2", 
+		    "description": "US-West (Oregon)"
 		}, 
 		{
 		    "endpoint": "cloudformation.eu-west-1.amazonaws.com", 
@@ -109,6 +119,11 @@
 		    "description": "US-West (Northern California)"
 		}, 
 		{
+		    "endpoint": "monitoring.us-west-2.amazonaws.com", 
+		    "name": "us-west-2", 
+		    "description": "US-West (Oregon)"
+		}, 
+		{
 		    "endpoint": "monitoring.eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
 		    "description": "EU (Ireland)"
@@ -159,6 +174,22 @@
 	    "path": "/", 
 	    "port": 443
 	},
+	"ElastiCache" : {
+	    "name": "elasticache",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "2011-07-15",
+	    "status" : "beta",
+	    "regions": [
+		{
+		    "endpoint": "elasticache.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
 	"Elastic Compute Cloud" : {
 	    "name": "sign-v2",
 	    "description": "Elastic Compute Cloud",
@@ -191,6 +222,12 @@
 		    "ip_ranges" : ["204.236.128.0/18",
 		    		   "184.72.0.0/18",
 				   "50.18.0.0/18"]
+		}, 
+		{
+		    "endpoint": "ec2.us-west-2.amazonaws.com", 
+		    "name": "us-west-2", 
+		    "description": "US-West (Oregon)",
+		    "ip_ranges" : ["50.112.0.0/16"]
 		}, 
 		{
 		    "endpoint": "ec2.eu-west-1.amazonaws.com", 
@@ -323,6 +360,11 @@
 		    "description": "US-West (Northern California)"
 		}, 
 		{
+		    "endpoint": "elasticloadbalancing.us-west-2.amazonaws.com", 
+		    "name": "us-west-2", 
+		    "description": "US-West (Oregon)"
+		}, 
+		{
 		    "endpoint": "elasticloadbalancing.eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
 		    "description": "EU (Ireland)"
@@ -359,9 +401,24 @@
 		    "description": "US-West (Northern California)"
 		}, 
 		{
+		    "endpoint": "elasticmapreduce.us-west-2.amazonaws.com", 
+		    "name": "us-west-2", 
+		    "description": "US-West (Oregon)"
+		}, 
+		{
 		    "endpoint": "elasticmapreduce.eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
 		    "description": "EU (Ireland)"
+		},
+		{
+		    "endpoint": "elasticmapreduce.ap-southeast-1.amazonaws.com", 
+		    "name": "ap-southeast-1", 
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "elasticmapreduce.ap-northeast-1.amazonaws.com", 
+		    "name": "ap-northeast-1", 
+		    "description": "Asia Pacific (Tokyo)"
 		}
 	    ], 
 	    "path": "/", 
@@ -464,6 +521,11 @@
 		    "description": "US-West (Northern California)"
 		}, 
 		{
+		    "endpoint": "rds.us-west-2.amazonaws.com", 
+		    "name": "us-west-2", 
+		    "description": "US-West (Oregon)"
+		}, 
+		{
 		    "endpoint": "rds.eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
 		    "description": "EU (Ireland)"
@@ -491,6 +553,22 @@
 	    "regions": [
 		{
 		    "endpoint": "route53.amazonaws.com", 
+		    "name": "universal", 
+		    "description": "Universal endpoint"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
+	"Security Token Service" : {
+	    "name": "sts",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "2011-06-15",
+	    "status" : "beta",
+	    "regions": [
+		{
+		    "endpoint": "sts.amazonaws.com", 
 		    "name": "universal", 
 		    "description": "Universal endpoint"
 		}
@@ -532,6 +610,11 @@
 		    "description": "US-West (Northern California)"
 		}, 
 		{
+		    "endpoint": "sdb.us-west-2.amazonaws.com", 
+		    "name": "us-west-2", 
+		    "description": "US-West (Oregon)"
+		}, 
+		{
 		    "endpoint": "sdb.eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
 		    "description": "EU (Ireland)"
@@ -566,6 +649,11 @@
 		    "endpoint": "sns.us-west-1.amazonaws.com", 
 		    "name": "us-west-1", 
 		    "description": "US-West (Northern California)"
+		}, 
+		{
+		    "endpoint": "sns.us-west-2.amazonaws.com", 
+		    "name": "us-west-2", 
+		    "description": "US-West (Oregon)"
 		}, 
 		{
 		    "endpoint": "sns.eu-west-1.amazonaws.com", 
@@ -604,6 +692,11 @@
 		    "description": "US-West (Northern California)"
 		}, 
 		{
+		    "endpoint": "sqs.us-west-2.amazonaws.com", 
+		    "name": "us-west-2", 
+		    "description": "US-West (Oregon)"
+		}, 
+		{
 		    "endpoint": "sqs.eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
 		    "description": "EU (Ireland)"
@@ -640,6 +733,11 @@
 		    "description": "US-West (Northern California)"
 		}, 
 		{
+		    "endpoint": "s3-us-west-2.amazonaws.com", 
+		    "name": "us-west-2", 
+		    "description": "US-West (Oregon)"
+		}, 
+		{
 		    "endpoint": "s3-eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
 		    "description": "EU (Ireland)"
@@ -654,7 +752,33 @@
 		    "name": "ap-northeast-1", 
 		    "description": "Asia Pacific (Tokyo)"
 		}
-	    ], 
+	    ],
+	    "website_endpoints": [
+	        {
+		    "endpoint": "s3-website-us-east-1.amazonaws.com",
+		    "description": "US Standard"
+		},
+		{
+		    "endpoint": "s3-website-us-west-2.amazonaws.com",
+		    "description": "US-West (Northern California)"
+		}, 
+		{
+		    "endpoint": "s3-website-us-west-2.amazonaws.com", 
+		    "description": "US-West (Oregon)"
+		}, 
+		{
+		    "endpoint": "s3-website-eu-west-1.amazonaws.com", 
+		    "description": "EU (Ireland)"
+		}, 
+		{
+		    "endpoint": "s3-website-ap-southeast-1.amazonaws.com", 
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "s3-website-ap-northeast-1.amazonaws.com", 
+		    "description": "Asia Pacific (Tokyo)"
+		}
+            ],
 	    "path": "/", 
 	    "port": 443
 	},
@@ -674,22 +798,26 @@
 		    "endpoint": "ec2.us-west-1.amazonaws.com", 
 		    "name": "us-west-1", 
 		    "description": "US-West (Northern California)"
-		}
-	    ], 
-	    "path": "/", 
-	    "port": 443
-	},
-	"ElastiCache" : {
-	    "name": "elasticache",
-	    "description": "",
-	    "authentication": "sign-v2",
-	    "api_version" : "2011-07-15",
-	    "status" : "beta",
-	    "regions": [
+		},
 		{
-		    "endpoint": "elasticache.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
-		    "description": "US-East (Northern Virginia)"
+		    "endpoint": "ec2.us-west-2.amazonaws.com", 
+		    "name": "us-west-2", 
+		    "description": "US-West (Oregon)"
+		},
+		{
+		    "endpoint": "ec2.eu-west-1.amazonaws.com", 
+		    "name": "eu-west-1", 
+		    "description": "EU (Ireland)"
+		},
+		{
+		    "endpoint": "ec2.ap-southeast-1.amazonaws.com", 
+		    "name": "ap-southeast-1", 
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "ec2.ap-northeast-1.amazonaws.com", 
+		    "name": "ap-northeast-1", 
+		    "description": "Asia Pacific (Tokyo)"
 		}
 	    ], 
 	    "path": "/", 
