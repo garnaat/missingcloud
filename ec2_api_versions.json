@@ -1,0 +1,210 @@
+{
+    "2006-06-26" : {
+	"comment" : "Initial public beta release of Amazon EC2.",
+	"requests" : [
+	    "AuthorizeSecurityGroupIngress",
+	    "CreateKeyPair",
+	    "CreateSecurityGroup",
+	    "DeleteKeyPair",
+	    "DeleteSecurityGroup",
+	    "DeregisterImage",
+	    "DescribeImages",
+	    "DescribeInstances",
+	    "DescribeKeyPairs",
+	    "DescribeSecurityGroups",
+	    "RegisterImage",
+	    "RevokeSecurityGroupIngress",
+	    "RunInstances",
+	    "TerminateInstances"]
+    },
+    "2006-10-01" : {
+	"comment" : "Includes shared AMIs, parameterized launches, instance metadata",
+	"requests" : [
+	    "DescribeImageAttribute",
+	    "ModifyImageAttribute",
+	    "ResetImageAttribute"]
+    },
+    "2007-01-03" : {
+	"comment" : "Reboot an instance and capture instance console output",
+	"requests" : [
+	    "GetConsoleOutput",
+	    "RebootInstances"]
+    },
+    "2007-01-19" : {
+	"comment" : "Supports the new NAT Addressing scheme.",
+	"requests": []
+    },
+    "2007-03-01" : {
+	"comment" : "supports paid AMIs",
+	"requests" : [
+	    "ConfirmProductInstance"]
+    },
+    "2007-08-29" : {
+	"comment" : "Multiple instance types and the instance launch time",
+	"requests" : []
+    },
+    "2008-02-01" : {
+	"comment" : "Elastic IP Addresses, Availability Zones, User Selectable Kernels.",
+	"requests" : [
+	    "AllocateAddress",
+	    "AssociateAddress",
+	    "DescribeAddresses",
+	    "DescribeAvailabilityZones",
+	    "DisassociateAddress",
+	    "ReleaseAddress"]
+    },
+    "2008-05-05" : {
+	"comment" : "Amazon Elastic Block Store",
+	"requests" : [
+	    "AttachVolume",
+	    "CreateVolume",
+	    "DeleteVolume",
+	    "DescribeVolumes",
+	    "DetachVolume",
+	    "CreateSnapshot",
+	    "DeleteSnapshot",
+	    "DescribeSnapshots"]
+    },
+    "2008-08-08" : {
+	"comment" : "Windows instances",
+	"requests" : [
+	    "BundleInstance",
+	    "CancelBundleTask",
+	    "DescribeBundleTasks"]
+    },
+    "2008-12-01" : {
+	"comment" : "Multiple regions",
+	"requests" : [
+	    "DescribeRegions"]
+    },
+    "2009-03-01" : {
+	"comment" : "Reserved Instances",
+	"requests" : [
+	    "DescribeReservedInstances",
+	    "DescribeReservedInstancesOfferings",
+	    "PurchaseReservedInstanceOffering"]
+    },
+    "2009-04-04" : {
+	"comment" : "Cloudwatch, autoscaling, Elastic Load Balancers",
+	"requests" : [
+	    "MonitorInstances",
+	    "UnmonitorInstances"]
+    },
+    "2009-07-15" : {
+	"comment" : "VPC",
+	"requests" : [
+	    "GetPasswordData"]
+    },
+    "2009-08-15" : {
+	"comment" : "Shared snapshots",
+	"requests" : [
+	    "DescribeSnapshotAttribute",
+	    "ModifySnapshotAttribute",
+	    "ResetSnapshotAttribute"]
+    },
+    "2009-10-31" : {
+	"comment" : "EBS-based AMI's",
+	"requests" : [
+	    "CreateImage",
+	    "DescribeInstanceAttribute",
+	    "ModifyInstanceAttribute",
+	    "StartInstances",
+	    "StopInstances"]
+    },
+    "2009-11-30" : {
+	"comment" : "Spot instances",
+	"requests" : [
+	    "CancelSpotInstanceRequests",
+	    "CreateSpotFeedDataSubscription",
+	    "DeleteSpotFeedDataSubscription",
+	    "DescribeSpotDatafeedSubscriptions",
+	    "DescribeSpotInstanceRequests",
+	    "DescribeSpotPriceHistory",
+	    "RequestSpotInstances"]
+    },
+    "2010-06-15" : {
+	"comment" : "New cluster compute instances, VPC subnet IP on launch.",
+	"requests" : [
+	    "ActivateLicense",
+	    "CreatePlacementGroup",
+	    "DeactivateLicense",
+	    "DeletePlacementGroup",
+	    "DescribeLicenses",
+	    "DescribePlacementGroups"]
+    },
+    "2010-08-31" : {
+	"comment" : "Tags, filters, ImportKeyPair, idempotent RunInstances",
+	"requests" : [
+	    "CreateTags",
+	    "DeleteTags",
+	    "DescribeTags",
+	    "ImportKeyPair"]
+    },
+    "2010-11-15" : {
+	"comment" : "Support for VM import",
+	"requests" : [
+	    "DescribeConversionTasks",
+	    "ImportInstance",
+	    "ImportVolume"]
+    },
+    "2011-01-01" : {
+	"comment" : "Introduces internet access.",
+	"requests" : [
+	    "AssociateDhcpOptions",
+	    "AssociateRouteTable",
+	    "AttachInternetGateway",
+	    "AttachVpnGateway",
+	    "AuthorizeSecurityGroupEgress",
+	    "CreateCustomerGateway",
+	    "CreateDhcpOptions",
+	    "CreateInternetGateway",
+	    "CreateNetworkAcl",
+	    "CreateNetworkAclEntry",
+	    "CreateRoute",
+	    "CreateRouteTable",
+	    "CreateSubnet",
+	    "CreateVpc",
+	    "CreateVpnConnection",
+	    "CreateVpnGateway",
+	    "DeleteCustomerGateway",
+	    "DeleteDhcpOptions",
+	    "DeleteInternetGateway",
+	    "DeleteNetworkAcl",
+	    "DeleteNetworkAclEntry",
+	    "DeleteRoute",
+	    "DeleteRouteTable",
+	    "DeleteSubnet",
+	    "DeleteVpc",
+	    "DeleteVpnConnection",
+	    "DeleteVpnGateway",
+	    "DescribeCustomerGateways",
+	    "DescribeDhcpOptions",
+	    "DescribeInternetGateways",
+	    "DescribeNetworkAcls",
+	    "DescribeRouteTables",
+	    "DescribeSubnets",
+	    "DescribeVpcs",
+	    "DescribeVpnConnections",
+	    "DescribeVpnGateways",
+	    "DescribeInternetGateways",
+	    "DetachVpnGateway",
+	    "DisassociateRouteTable",
+	    "ReplaceNetworkAclAssociation",
+	    "ReplaceNetworkAclEntry",
+	    "ReplaceRoute",
+	    "ReplaceRouteTableAssociation",
+	    "RevokeSecurityGroupEgress"]
+    },
+    "2011-02-28" : {
+	"comment" : "Dedicated instances",
+	"requests" : []
+    },
+    "2011-05-15" : {
+	"comment" : " Spot Instances Availability Zone Local Pricing Changes",
+	"requests" : []
+    },
+    "2011-07-15" : {
+	"comment" : "VPC in five AWS Regions, VPCs in multiple Availability Zones, multiple VPCs per AWS account, multiple VPN connections per VPC, and VPC support for Microsoft Windows Server 2008 R2 and Microsoft SQL Server Reserved Instances.",
+	"requests" : []
+    }
+}
