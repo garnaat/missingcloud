@@ -148,7 +148,7 @@
 	    "ImportVolume"]
     },
     "2011-01-01" : {
-	"comment" : "Introduces internet access.",
+	"comment" : "Merge VPC functionality into EC2 API.",
 	"requests" : [
 	    "AssociateDhcpOptions",
 	    "AssociateRouteTable",
