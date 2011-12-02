@@ -432,7 +432,7 @@
 	    "name": "fps",
 	    "description": "",
 	    "authentication": "sign-v2",
-	    "api_version" : "???",
+	    "api_version" : "2010-08-28",
 	    "status" : "production",
 	    "regions": [
 		{
@@ -464,7 +464,7 @@
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-05-08",
-	    "status" : "beta",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "iam.amazonaws.com", 
@@ -495,7 +495,7 @@
 	    "name": "mturk",
 	    "description": "",
 	    "authentication": "mturk",
-	    "api_version" : "2008-08-02",
+	    "api_version" : "2011-10-01",
 	    "status" : "beta",
 	    "regions": [
 		{
@@ -552,8 +552,8 @@
 	    "name": "route53",
 	    "description": "",
 	    "authentication": "hmac-v3",
-	    "api_version" : "2010-10-01",
-	    "status" : "beta",
+	    "api_version" : "2011-05-05",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "route53.amazonaws.com", 
@@ -680,9 +680,9 @@
 	},
 	"Simple Queue Service" : {
 	    "name": "sqs",
-	    "description": "2009-02-01",
+	    "description": "",
 	    "authentication": "sign-v2",
-	    "api_version" : "",
+	    "api_version" : "2011-10-01",
 	    "status" : "production",
 	    "regions": [
 		{
@@ -723,7 +723,7 @@
 	    "name": "s3",
 	    "description": "",
 	    "authentication": "hmac-v1",
-	    "api_version" : "",
+	    "api_version" : "2006-03-01",
 	    "status" : "production",
 	    "regions": [
 		{
@@ -790,8 +790,8 @@
 	    "name": "vpc",
 	    "description": "",
 	    "authentication": "sign-v2",
-	    "api_version" : "",
-	    "status" : "beta",
+	    "api_version" : "2011-07-15",
+	    "status" : "production",
 	    "regions": [
 		{
 		    "endpoint": "ec2.us-east-1.amazonaws.com", 
