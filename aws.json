@@ -191,9 +191,9 @@
 	    "port": 443
 	},
 	"Elastic Compute Cloud" : {
-	    "name": "sign-v2",
+	    "name": "ec2",
 	    "description": "Elastic Compute Cloud",
-	    "authentication": "ec2",
+	    "authentication": "sign-v2",
 	    "api_version" : "2010-08-31",
 	    "status" : "production",
 	    "regions": [
