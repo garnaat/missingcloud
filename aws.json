@@ -26,6 +26,11 @@
 		    "description": "US-West (Oregon)"
 		}, 
 		{
+		    "endpoint": "autoscaling.sa-east-1.amazonaws.com", 
+		    "name": "sa-east-1", 
+		    "description": "South America (Sao Paulo)"
+		}, 
+		{
 		    "endpoint": "autoscaling.eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
 		    "description": "EU (Ireland)"
@@ -52,19 +57,24 @@
 	    "status" : "production",
 	    "regions": [
 		{
-		    "endpoint": "cloudformation.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "cloudformation.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
 		    "description": "US-East (Northern Virginia)"
 		}, 
 		{
 		    "endpoint": "cloudformation.us-west-1.amazonaws.com", 
-		    "name": "us-west-1", 
+		    "name": "us-west-1",
 		    "description": "US-West (Northern California)"
 		}, 
 		{
 		    "endpoint": "cloudformation.us-west-2.amazonaws.com", 
-		    "name": "us-west-2", 
+		    "name": "us-west-2",
 		    "description": "US-West (Oregon)"
+		}, 
+		{
+		    "endpoint": "cloudformation.sa-east-1.amazonaws.com", 
+		    "name": "sa-east-1",
+		    "description": "South America (Sao Paulo)"
 		}, 
 		{
 		    "endpoint": "cloudformation.eu-west-1.amazonaws.com", 
@@ -122,6 +132,11 @@
 		    "endpoint": "monitoring.us-west-2.amazonaws.com", 
 		    "name": "us-west-2", 
 		    "description": "US-West (Oregon)"
+		}, 
+		{
+		    "endpoint": "monitoring.sa-east-1.amazonaws.com", 
+		    "name": "sa-east-1",
+		    "description": "South America (Sao Paulo)"
 		}, 
 		{
 		    "endpoint": "monitoring.eu-west-1.amazonaws.com", 
@@ -250,6 +265,12 @@
 		    "name": "us-west-2", 
 		    "description": "US-West (Oregon)",
 		    "ip_ranges" : ["50.112.0.0/16"]
+		}, 
+		{
+		    "endpoint": "ec2.sa-east-1.amazonaws.com", 
+		    "name": "sa-east-1", 
+		    "description": "South America (Sao Paulo)",
+		    "ip_ranges" : []
 		}, 
 		{
 		    "endpoint": "ec2.eu-west-1.amazonaws.com", 
@@ -389,6 +410,11 @@
 		    "description": "US-West (Oregon)"
 		}, 
 		{
+		    "endpoint": "elasticloadbalancing.sa-east-1.amazonaws.com", 
+		    "name": "sa-east-1", 
+		    "description": "South America (Sao Paulo)"
+		}, 
+		{
 		    "endpoint": "elasticloadbalancing.eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
 		    "description": "EU (Ireland)"
@@ -428,6 +454,11 @@
 		    "endpoint": "elasticmapreduce.us-west-2.amazonaws.com", 
 		    "name": "us-west-2", 
 		    "description": "US-West (Oregon)"
+		}, 
+		{
+		    "endpoint": "elasticmapreduce.sa-east-1.amazonaws.com", 
+		    "name": "sa-east-1",
+		    "description": "South America (Sao Paulo)"
 		}, 
 		{
 		    "endpoint": "elasticmapreduce.eu-west-1.amazonaws.com", 
@@ -550,6 +581,11 @@
 		    "description": "US-West (Oregon)"
 		}, 
 		{
+		    "endpoint": "rds.sa-east-1.amazonaws.com", 
+		    "name": "sa-east-1",
+		    "description": "South America (Sao Paulo)"
+		}, 
+		{
 		    "endpoint": "rds.eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
 		    "description": "EU (Ireland)"
@@ -639,6 +675,11 @@
 		    "description": "US-West (Oregon)"
 		}, 
 		{
+		    "endpoint": "sdb.sa-east-1.amazonaws.com", 
+		    "name": "sa-east-1", 
+		    "description": "South America (Sao Paulo)"
+		}, 
+		{
 		    "endpoint": "sdb.eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
 		    "description": "EU (Ireland)"
@@ -678,6 +719,11 @@
 		    "endpoint": "sns.us-west-2.amazonaws.com", 
 		    "name": "us-west-2", 
 		    "description": "US-West (Oregon)"
+		}, 
+		{
+		    "endpoint": "sns.sa-east-1.amazonaws.com", 
+		    "name": "sa-east-1", 
+		    "description": "South America (Sao Paulo)"
 		}, 
 		{
 		    "endpoint": "sns.eu-west-1.amazonaws.com", 
@@ -721,6 +767,11 @@
 		    "description": "US-West (Oregon)"
 		}, 
 		{
+		    "endpoint": "sqs.sa-east-1.amazonaws.com", 
+		    "name": "sa-east-1", 
+		    "description": "South America (Sao Paulo)"
+		}, 
+		{
 		    "endpoint": "sqs.eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
 		    "description": "EU (Ireland)"
@@ -762,6 +813,11 @@
 		    "description": "US-West (Oregon)"
 		}, 
 		{
+		    "endpoint": "s3.sa-east-1.amazonaws.com", 
+		    "name": "sa-east-1", 
+		    "description": "South America (Sao Paulo)"
+		}, 
+		{
 		    "endpoint": "s3-eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
 		    "description": "EU (Ireland)"
@@ -789,6 +845,10 @@
 		{
 		    "endpoint": "s3-website-us-west-2.amazonaws.com", 
 		    "description": "US-West (Oregon)"
+		}, 
+		{
+		    "endpoint": "s3-website.sa-east-1.amazonaws.com", 
+		    "description": "South America (Sao Paulo)"
 		}, 
 		{
 		    "endpoint": "s3-website-eu-west-1.amazonaws.com", 
@@ -828,6 +888,11 @@
 		    "name": "us-west-2", 
 		    "description": "US-West (Oregon)"
 		},
+		{
+		    "endpoint": "vpc.sa-east-1.amazonaws.com", 
+		    "name": "sa-east-1", 
+		    "description": "South America (Sao Paulo)"
+		}, 
 		{
 		    "endpoint": "ec2.eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
