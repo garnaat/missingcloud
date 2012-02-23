@@ -223,6 +223,16 @@
 		    "description": "US-West (Northern California)"
 		},
 		{
+		    "endpoint": "elasticache.us-west-2.amazonaws.com", 
+		    "name": "us-west-2", 
+		    "description": "US-West (Oregon)"
+		},
+		{
+		    "endpoint": "elasticache.sa-east-1.amazonaws.com", 
+		    "name": "sa-east-1", 
+		    "description": "South America (Sau Paulo)"
+		},
+		{
 		    "endpoint": "elasticache.eu-west-1.amazonaws.com", 
 		    "name": "eu-west-1", 
 		    "description": "EU (Ireland)"
