@@ -189,6 +189,11 @@
 		    "endpoint": "dynamodb.ap-northeast-1.amazonaws.com", 
 		    "name": "ap-northeast-1", 
 		    "description": "Asia Pacific (Tokyo)"
+		},
+		{
+		    "endpoint": "dynamodb.eu-west-1.amazonaws.com", 
+		    "name": "eu-west-1", 
+		    "description": "EU (Ireland)"
 		}
 	    ], 
 	    "path": "/", 
@@ -342,6 +347,13 @@
 		    "gpus" : 0,
 		    "ramMB" : 1700,
 		    "storageGB" : [10, 160],
+		    "i/o" : "moderate",
+		    "arch" : [32,64]},
+		"m1.medium" : {
+		    "compute_units" : 2,
+		    "gpus" : 0,
+		    "ramMB" : 3750,
+		    "storageGB" : [10, 410],
 		    "i/o" : "moderate",
 		    "arch" : [32,64]},
 		"m1.large" : {
