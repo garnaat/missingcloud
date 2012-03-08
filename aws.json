@@ -343,7 +343,7 @@
 		    "ramMB" : 1700,
 		    "storageGB" : [10, 160],
 		    "i/o" : "moderate",
-		    "arch" : [32]},
+		    "arch" : [32,64]},
 		"m1.large" : {
 		    "compute_units" : 4,
 		    "gpus" : 0,
@@ -371,7 +371,7 @@
 		    "ramMB" : 1700,
 		    "storageGB" : [10, 350],
 		    "i/o" : "moderate",
-		    "arch" : [32]},
+		    "arch" : [32,64]},
 		"c1.xlarge" : {
 		    "compute_units" : 20,
 		    "gpus" : 0,
