@@ -111,6 +111,22 @@
 	    "path": "/", 
 	    "port": 443
 	},
+	"CloudSearch" : {
+	    "name": "cloudsearch",
+	    "description": "",
+	    "authentication": "hmac-v2",
+	    "api_version" : "2011-02-01",
+	    "status" : "beta",
+	    "regions": [
+		{
+		    "endpoint": "cloudsearch.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}
+	    ], 
+	    "path": "/", 
+	    "port": 443
+	},
 	"CloudWatch" : {
 	    "name": "cloudwatch",
 	    "description": "",
@@ -908,6 +924,22 @@
 		    "description": "Asia Pacific (Tokyo)"
 		}
             ],
+	    "path": "/", 
+	    "port": 443
+	},
+	"Simple Worflow" : {
+	    "name": "swf",
+	    "description": "",
+	    "authentication": "hmac-v3-http",
+	    "api_version" : "",
+	    "status" : "beta",
+	    "regions": [
+		{
+		    "endpoint": "swf.us-east-1.amazonaws.com", 
+		    "name": "us-east-1", 
+		    "description": "US-East (Northern Virginia)"
+		}
+	    ], 
 	    "path": "/", 
 	    "port": 443
 	},
