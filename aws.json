@@ -5,6 +5,7 @@
     "services" : {
 	"Auto Scaling" : {
 	    "name": "autoscale",
+	    "api_name": "autoscaling",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2009-05-15",
@@ -58,6 +59,7 @@
 	},
 	"CloudFormation" : {
 	    "name": "cfn",
+	    "api_name": "cloudformation",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-05-15",
@@ -111,6 +113,7 @@
 	},
 	"CloudFront" : {
 	    "name": "cloudfront",
+	    "api_name": "cloudfront",
 	    "description": "",
 	    "authentication": "hmac-v2",
 	    "api_version" : "2010-08-01",
@@ -128,6 +131,7 @@
 	},
 	"CloudSearch" : {
 	    "name": "cloudsearch",
+	    "api_name": "cloudsearch",
 	    "description": "",
 	    "authentication": "hmac-v2",
 	    "api_version" : "2011-02-01",
@@ -145,6 +149,7 @@
 	},
 	"CloudWatch" : {
 	    "name": "cloudwatch",
+	    "api_name": "monitoring",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-08-01",
@@ -198,6 +203,7 @@
 	},
 	"DevPay" : {
 	    "name": "devpay",
+	    "api_name": "ls",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-06-03",
@@ -215,6 +221,7 @@
 	},
 	"DynamoDB" : {
 	    "name": "dynamodb",
+	    "api_name": "dynamodb",
 	    "description": "",
 	    "authentication": "hmac-v3-http",
 	    "api_version" : "20111205",
@@ -262,6 +269,7 @@
 	},
 	"Elastic Beanstalk" : {
 	    "name": "elasticbeanstalk",
+	    "api_name": "elasticbeanstalk",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-12-01",
@@ -278,6 +286,12 @@
 		    "name": "us-east-1", 
 		    "protocols": ["HTTPS"],
 		    "description": "Asia Pacific (Tokyo)"
+		},
+		{
+		    "endpoint": "elasticbeanstalk.eu-west-1.amazonaws.com", 
+		    "name": "eu-west-1", 
+		    "protocols": ["HTTPS"],
+		    "description": "EU (Ireland)"
 		}
 	    ], 
 	    "path": "/", 
@@ -285,6 +299,7 @@
 	},
 	"ElastiCache" : {
 	    "name": "elasticache",
+	    "api_name": "elasticache",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2011-07-15",
@@ -338,6 +353,7 @@
 	},
 	"Elastic Compute Cloud" : {
 	    "name": "ec2",
+	    "api_name": "ec2",
 	    "description": "Elastic Compute Cloud",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-08-31",
@@ -386,6 +402,7 @@
 		{
 		    "endpoint": "ec2.sa-east-1.amazonaws.com", 
 		    "name": "sa-east-1", 
+		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "South America (Sao Paulo)",
 		    "ip_ranges" : []
 		}, 
@@ -518,6 +535,7 @@
 	},
 	"Elastic Load Balancing" : {
 	    "name": "elb",
+	    "api_name": "elasticloadbalancing",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-07-01",
@@ -571,6 +589,7 @@
 	},
 	"Elastic Map Reduce" : {
 	    "name": "emr",
+	    "api_name": "elasticmapreduce",
 	    "description": "Elastic Compute Cloud",
 	    "authentication": "sign-v2",
 	    "api_version" : "2009-03-31",
@@ -624,6 +643,7 @@
 	},
 	"Flexible Payment Service" : {
 	    "name": "fps",
+	    "api_name": "authorize",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-08-28",
@@ -659,6 +679,7 @@
 	},
 	"Identity & Access Management" : {
 	    "name": "iam",
+	    "api_name": "iam",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-05-08",
@@ -676,6 +697,7 @@
 	},
 	"Import/Export" : {
 	    "name": "importexport",
+	    "api_name": "importexport",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-06-03",
@@ -693,6 +715,7 @@
 	},
 	"Mechanical Turk" : {
 	    "name": "mturk",
+	    "api_name": "mechanicalturk",
 	    "description": "",
 	    "authentication": "mturk",
 	    "api_version" : "2011-10-01",
@@ -710,6 +733,7 @@
 	},
 	"Relational Data Service" : {
 	    "name": "rds",
+	    "api_name": "rds",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2009-10-16",
@@ -763,6 +787,7 @@
 	},
 	"Route 53" : {
 	    "name": "route53",
+	    "api_name": "route53",
 	    "description": "",
 	    "authentication": "hmac-v3",
 	    "api_version" : "2011-05-05",
@@ -780,6 +805,7 @@
 	},
 	"Security Token Service" : {
 	    "name": "sts",
+	    "api_name": "sts",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2011-06-15",
@@ -797,6 +823,7 @@
 	},
 	"Simple Email Service" : {
 	    "name": "ses",
+	    "api_name": "email",
 	    "description": "",
 	    "authentication": "hmac-v3",
 	    "api_version" : "2010-12-01",
@@ -814,6 +841,7 @@
 	},
 	"SimpleDB" : {
 	    "name": "sdb",
+	    "api_name": "sdb",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2009-04-15",
@@ -867,6 +895,7 @@
 	},
 	"Simple Notification Service" : {
 	    "name": "sns",
+	    "api_name": "sns",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2010-03-31",
@@ -920,6 +949,7 @@
 	},
 	"Simple Queue Service" : {
 	    "name": "sqs",
+	    "api_name": "sqs",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2011-10-01",
@@ -927,12 +957,14 @@
 	    "regions": [
 		{
 		    "endpoint": "sqs.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "name": "us-east-1",
+		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-East (Northern Virginia)"
 		}, 
 		{
 		    "endpoint": "sqs.us-west-1.amazonaws.com", 
 		    "name": "us-west-1", 
+		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Northern California)"
 		}, 
 		{
@@ -971,6 +1003,7 @@
 	},
 	"Simple Storage Service" : {
 	    "name": "s3",
+	    "api_name": "s3",
 	    "description": "",
 	    "authentication": "hmac-v1",
 	    "api_version" : "2006-03-01",
@@ -1061,6 +1094,7 @@
 	},
 	"Simple Worflow" : {
 	    "name": "swf",
+	    "api_name": "swf",
 	    "description": "",
 	    "authentication": "hmac-v3-http",
 	    "api_version" : "",
@@ -1078,6 +1112,7 @@
 	},
 	"Virtual Private Cloud" : {
 	    "name": "vpc",
+	    "api_name": "ec2",
 	    "description": "",
 	    "authentication": "sign-v2",
 	    "api_version" : "2011-07-15",
