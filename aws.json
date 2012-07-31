@@ -522,11 +522,25 @@
 		    "storageGB" : [10, 840, 840],
 		    "i/o" : "very high",
 		    "arch" : [64]},
+		"cc2.8xlarge" : {
+		    "compute_units" : 88,
+		    "gpus" : 0,
+		    "ramMB" : 60500,
+		    "storageGB" : [10, 840, 840, 840, 840],
+		    "i/o" : "very high",
+		    "arch" : [64]},
 		"cg1.4xlarge" : {
 		    "compute_units" : 33.5,
 		    "gpus" : 2,
 		    "ramMB" : 22000,
 		    "storageGB" : [10, 840, 840],
+		    "i/o" : "very high",
+		    "arch" : [64]},
+		"hi1.4xlarge" : {
+		    "compute_units" : 35,
+		    "gpus" : 0,
+		    "ramMB" : 60500,
+		    "storageGB" : [10, 1024, 1024],
 		    "i/o" : "very high",
 		    "arch" : [64]}
 	    },
