@@ -282,6 +282,18 @@
 		    "description": "US-East (Northern Virginia)"
 		},
 		{
+		    "endpoint": "elasticbeanstalk.us-west-1.amazonaws.com", 
+		    "name": "us-west-1", 
+		    "protocols": ["HTTPS"],
+		    "description": "US-West (Northern California)"
+		},
+		{
+		    "endpoint": "elasticbeanstalk.us-west-2.amazonaws.com", 
+		    "name": "us-west-2", 
+		    "protocols": ["HTTPS"],
+		    "description": "US-West (Oregon)"
+		},
+		{
 		    "endpoint": "elasticbeanstalk.ap-northeast-1.amazonaws.com", 
 		    "name": "us-east-1", 
 		    "protocols": ["HTTPS"],
