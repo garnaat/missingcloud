@@ -12,49 +12,49 @@
 	    "status" : "production",
 	    "regions": [
 		{
-		    "endpoint": "autoscaling.us-east-1.amazonaws.com", 
+		    "endpoint": "autoscaling.us-east-1.amazonaws.com",
 		    "name": "us-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-East (Northern Virginia)"
-		}, 
+		},
 		{
-		    "endpoint": "autoscaling.us-west-1.amazonaws.com", 
-		    "name": "us-west-1", 
+		    "endpoint": "autoscaling.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Northern California)"
-		}, 
+		},
 		{
-		    "endpoint": "autoscaling.us-west-2.amazonaws.com", 
-		    "name": "us-west-2", 
+		    "endpoint": "autoscaling.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Oregon)"
-		}, 
+		},
 		{
-		    "endpoint": "autoscaling.sa-east-1.amazonaws.com", 
-		    "name": "sa-east-1", 
+		    "endpoint": "autoscaling.sa-east-1.amazonaws.com",
+		    "name": "sa-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "South America (Sao Paulo)"
-		}, 
+		},
 		{
-		    "endpoint": "autoscaling.eu-west-1.amazonaws.com", 
-		    "name": "eu-west-1", 
+		    "endpoint": "autoscaling.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "EU (Ireland)"
-		}, 
+		},
 		{
-		    "endpoint": "autoscaling.ap-southeast-1.amazonaws.com", 
-		    "name": "ap-southeast-1", 
+		    "endpoint": "autoscaling.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
-		    "endpoint": "autoscaling.ap-northeast-1.amazonaws.com", 
-		    "name": "ap-northeast-1", 
+		    "endpoint": "autoscaling.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Tokyo)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"CloudFormation" : {
@@ -70,45 +70,45 @@
 		    "name": "us-east-1",
 		    "protocols": ["HTTPS"],
 		    "description": "US-East (Northern Virginia)"
-		}, 
+		},
 		{
-		    "endpoint": "cloudformation.us-west-1.amazonaws.com", 
+		    "endpoint": "cloudformation.us-west-1.amazonaws.com",
 		    "name": "us-west-1",
 		    "protocols": ["HTTPS"],
 		    "description": "US-West (Northern California)"
-		}, 
+		},
 		{
-		    "endpoint": "cloudformation.us-west-2.amazonaws.com", 
+		    "endpoint": "cloudformation.us-west-2.amazonaws.com",
 		    "name": "us-west-2",
 		    "protocols": ["HTTPS"],
 		    "description": "US-West (Oregon)"
-		}, 
+		},
 		{
-		    "endpoint": "cloudformation.sa-east-1.amazonaws.com", 
+		    "endpoint": "cloudformation.sa-east-1.amazonaws.com",
 		    "name": "sa-east-1",
 		    "protocols": ["HTTPS"],
 		    "description": "South America (Sao Paulo)"
-		}, 
+		},
 		{
-		    "endpoint": "cloudformation.eu-west-1.amazonaws.com", 
-		    "name": "eu-west-1", 
+		    "endpoint": "cloudformation.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
 		    "protocols": ["HTTPS"],
 		    "description": "EU (Ireland)"
-		}, 
+		},
 		{
-		    "endpoint": "cloudformation.ap-southeast-1.amazonaws.com", 
-		    "name": "ap-southeast-1", 
+		    "endpoint": "cloudformation.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS"],
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
-		    "endpoint": "cloudformation.ap-northeast-1.amazonaws.com", 
-		    "name": "ap-northeast-1", 
+		    "endpoint": "cloudformation.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS"],
 		    "description": "Asia Pacific (Tokyo)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"CloudFront" : {
@@ -120,13 +120,13 @@
 	    "status" : "production",
 	    "regions": [
 		{
-		    "endpoint": "cloudfront.amazonaws.com", 
-		    "name": "universal", 
+		    "endpoint": "cloudfront.amazonaws.com",
+		    "name": "universal",
 		    "protocols": ["HTTPS"],
 		    "description": "Universal endpoint"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"CloudSearch" : {
@@ -138,13 +138,13 @@
 	    "status" : "beta",
 	    "regions": [
 		{
-		    "endpoint": "cloudsearch.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "cloudsearch.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
 		    "protocols": ["HTTPS"],
 		    "description": "US-East (Northern Virginia)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"CloudWatch" : {
@@ -156,49 +156,49 @@
 	    "status" : "production",
 	    "regions": [
 		{
-		    "endpoint": "monitoring.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "monitoring.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-East (Northern Virginia)"
-		}, 
+		},
 		{
-		    "endpoint": "monitoring.us-west-1.amazonaws.com", 
-		    "name": "us-west-1", 
+		    "endpoint": "monitoring.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Northern California)"
-		}, 
+		},
 		{
-		    "endpoint": "monitoring.us-west-2.amazonaws.com", 
-		    "name": "us-west-2", 
+		    "endpoint": "monitoring.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Oregon)"
-		}, 
+		},
 		{
-		    "endpoint": "monitoring.sa-east-1.amazonaws.com", 
+		    "endpoint": "monitoring.sa-east-1.amazonaws.com",
 		    "name": "sa-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "South America (Sao Paulo)"
-		}, 
+		},
 		{
-		    "endpoint": "monitoring.eu-west-1.amazonaws.com", 
-		    "name": "eu-west-1", 
+		    "endpoint": "monitoring.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "EU (Ireland)"
-		}, 
+		},
 		{
-		    "endpoint": "monitoring.ap-southeast-1.amazonaws.com", 
-		    "name": "ap-southeast-1", 
+		    "endpoint": "monitoring.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
-		    "endpoint": "monitoring.ap-northeast-1.amazonaws.com", 
-		    "name": "ap-northeast-1", 
+		    "endpoint": "monitoring.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Tokyo)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"DevPay" : {
@@ -210,13 +210,13 @@
 	    "status" : "production",
 	    "regions": [
 		{
-		    "endpoint": "ls.amazonaws.com", 
-		    "name": "universal", 
+		    "endpoint": "ls.amazonaws.com",
+		    "name": "universal",
 		    "protocols": ["HTTPS"],
 		    "description": "Universal endpoint"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"DynamoDB" : {
@@ -228,43 +228,43 @@
 	    "status" : "beta",
 	    "regions": [
 		{
-		    "endpoint": "dynamodb.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "dynamodb.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-East (Northern Virginia)"
 		},
 		{
-		    "endpoint": "dynamodb.us-west-1.amazonaws.com", 
-		    "name": "us-west-1", 
+		    "endpoint": "dynamodb.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Northern California)"
 		},
 		{
-		    "endpoint": "dynamodb.us-west-2.amazonaws.com", 
-		    "name": "us-west-2", 
+		    "endpoint": "dynamodb.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Oregon)"
 		},
 		{
-		    "endpoint": "dynamodb.ap-northeast-1.amazonaws.com", 
-		    "name": "ap-northeast-1", 
+		    "endpoint": "dynamodb.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Tokyo)"
 		},
 		{
-		    "endpoint": "dynamodb.ap-southeast-1.amazonaws.com", 
-		    "name": "ap-southeast-1", 
+		    "endpoint": "dynamodb.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
-		    "endpoint": "dynamodb.eu-west-1.amazonaws.com", 
-		    "name": "eu-west-1", 
+		    "endpoint": "dynamodb.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "EU (Ireland)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"Elastic Beanstalk" : {
@@ -276,37 +276,37 @@
 	    "status" : "beta",
 	    "regions": [
 		{
-		    "endpoint": "elasticbeanstalk.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "elasticbeanstalk.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
 		    "protocols": ["HTTPS"],
 		    "description": "US-East (Northern Virginia)"
 		},
 		{
-		    "endpoint": "elasticbeanstalk.us-west-1.amazonaws.com", 
-		    "name": "us-west-1", 
+		    "endpoint": "elasticbeanstalk.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
 		    "protocols": ["HTTPS"],
 		    "description": "US-West (Northern California)"
 		},
 		{
-		    "endpoint": "elasticbeanstalk.us-west-2.amazonaws.com", 
-		    "name": "us-west-2", 
+		    "endpoint": "elasticbeanstalk.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
 		    "protocols": ["HTTPS"],
 		    "description": "US-West (Oregon)"
 		},
 		{
-		    "endpoint": "elasticbeanstalk.ap-northeast-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "elasticbeanstalk.ap-northeast-1.amazonaws.com",
+		    "name": "us-east-1",
 		    "protocols": ["HTTPS"],
 		    "description": "Asia Pacific (Tokyo)"
 		},
 		{
-		    "endpoint": "elasticbeanstalk.eu-west-1.amazonaws.com", 
-		    "name": "eu-west-1", 
+		    "endpoint": "elasticbeanstalk.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
 		    "protocols": ["HTTPS"],
 		    "description": "EU (Ireland)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"ElastiCache" : {
@@ -318,49 +318,49 @@
 	    "status" : "beta",
 	    "regions": [
 		{
-		    "endpoint": "elasticache.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "elasticache.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
 		    "protocols": ["HTTPS"],
 		    "description": "US-East (Northern Virginia)"
 		},
 		{
-		    "endpoint": "elasticache.us-west-1.amazonaws.com", 
-		    "name": "us-west-1", 
+		    "endpoint": "elasticache.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
 		    "protocols": ["HTTPS"],
 		    "description": "US-West (Northern California)"
 		},
 		{
-		    "endpoint": "elasticache.us-west-2.amazonaws.com", 
-		    "name": "us-west-2", 
+		    "endpoint": "elasticache.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
 		    "protocols": ["HTTPS"],
 		    "description": "US-West (Oregon)"
 		},
 		{
-		    "endpoint": "elasticache.sa-east-1.amazonaws.com", 
-		    "name": "sa-east-1", 
+		    "endpoint": "elasticache.sa-east-1.amazonaws.com",
+		    "name": "sa-east-1",
 		    "protocols": ["HTTPS"],
 		    "description": "South America (Sau Paulo)"
 		},
 		{
-		    "endpoint": "elasticache.eu-west-1.amazonaws.com", 
-		    "name": "eu-west-1", 
+		    "endpoint": "elasticache.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
 		    "protocols": ["HTTPS"],
 		    "description": "EU (Ireland)"
 		},
 		{
-		    "endpoint": "elasticache.ap-southeast-1.amazonaws.com", 
-		    "name": "ap-southeast-1", 
+		    "endpoint": "elasticache.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS"],
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
-		    "endpoint": "elasticache.ap-northeast-1.amazonaws.com", 
-		    "name": "ap-northeast-1", 
+		    "endpoint": "elasticache.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS"],
 		    "description": "Asia Pacific (Tokyo)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"Elastic Compute Cloud" : {
@@ -372,8 +372,8 @@
 	    "status" : "production",
 	    "regions": [
 		{
-		    "endpoint": "ec2.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "ec2.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-East (Northern Virginia)",
 		    "ip_ranges" : ["216.182.224.0/20",
@@ -393,10 +393,10 @@
 				    "54.242.0.0/15",
 				    "54.234.0.0/15",
 				    "54.236.0.0/15"]
-		}, 
+		},
 		{
-		    "endpoint": "ec2.us-west-1.amazonaws.com", 
-		    "name": "us-west-1", 
+		    "endpoint": "ec2.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Northern California)",
 		    "ip_ranges" : ["204.236.128.0/18",
@@ -404,26 +404,26 @@
 				   "50.18.0.0/18",
 				   "184.169.128.0/17",
 				   "54.241.0.0/16"]
-		}, 
+		},
 		{
-		    "endpoint": "ec2.us-west-2.amazonaws.com", 
-		    "name": "us-west-2", 
+		    "endpoint": "ec2.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Oregon)",
 		    "ip_ranges" : ["50.112.0.0/16",
 		                   "54.245.0.0/16"]
-		}, 
+		},
 		{
-		    "endpoint": "ec2.sa-east-1.amazonaws.com", 
-		    "name": "sa-east-1", 
+		    "endpoint": "ec2.sa-east-1.amazonaws.com",
+		    "name": "sa-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "South America (Sao Paulo)",
 		    "ip_ranges" : ["177.71.128.0/17",
 				   "54.232.0.0/16"]
-		}, 
+		},
 		{
-		    "endpoint": "ec2.eu-west-1.amazonaws.com", 
-		    "name": "eu-west-1", 
+		    "endpoint": "ec2.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "EU (Ireland)",
 		    "ip_ranges" : ["79.125.0.0/17",
@@ -435,10 +435,10 @@
 				   "176.34.64.0/18",
 				   "54.247.0.0/16",
 				   "54.246.0.0/16"]
-		}, 
+		},
 		{
-		    "endpoint": "ec2.ap-southeast-1.amazonaws.com", 
-		    "name": "ap-southeast-1", 
+		    "endpoint": "ec2.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Singapore)",
 		    "ip_ranges" : ["175.41.128.0/18",
@@ -449,8 +449,8 @@
 				   "54.251.0.0/16"]
 		},
 		{
-		    "endpoint": "ec2.ap-northeast-1.amazonaws.com", 
-		    "name": "ap-northeast-1", 
+		    "endpoint": "ec2.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Tokyo)",
 		    "ip_ranges" : ["175.41.192.0/18",
@@ -561,7 +561,7 @@
 		    "i/o" : "very high",
 		    "arch" : [64]}
 	    },
-	    "path": "/", 
+	    "path": "/",
 	    "port": 443
 	},
 	"Elastic Load Balancing" : {
@@ -573,49 +573,49 @@
 	    "status" : "production",
 	    "regions": [
 		{
-		    "endpoint": "elasticloadbalancing.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "elasticloadbalancing.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-East (Northern Virginia)"
-		}, 
+		},
 		{
-		    "endpoint": "elasticloadbalancing.us-west-1.amazonaws.com", 
-		    "name": "us-west-1", 
+		    "endpoint": "elasticloadbalancing.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Northern California)"
-		}, 
+		},
 		{
-		    "endpoint": "elasticloadbalancing.us-west-2.amazonaws.com", 
-		    "name": "us-west-2", 
+		    "endpoint": "elasticloadbalancing.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Oregon)"
-		}, 
+		},
 		{
-		    "endpoint": "elasticloadbalancing.sa-east-1.amazonaws.com", 
-		    "name": "sa-east-1", 
+		    "endpoint": "elasticloadbalancing.sa-east-1.amazonaws.com",
+		    "name": "sa-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "South America (Sao Paulo)"
-		}, 
+		},
 		{
-		    "endpoint": "elasticloadbalancing.eu-west-1.amazonaws.com", 
-		    "name": "eu-west-1", 
+		    "endpoint": "elasticloadbalancing.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "EU (Ireland)"
-		}, 
+		},
 		{
-		    "endpoint": "elasticloadbalancing.ap-southeast-1.amazonaws.com", 
-		    "name": "ap-southeast-1", 
+		    "endpoint": "elasticloadbalancing.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
-		    "endpoint": "elasticloadbalancing.ap-northeast-1.amazonaws.com", 
-		    "name": "ap-northeast-1", 
+		    "endpoint": "elasticloadbalancing.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Tokyo)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"Elastic Map Reduce" : {
@@ -627,49 +627,49 @@
 	    "status" : "production",
 	    "regions": [
 		{
-		    "endpoint": "elasticmapreduce.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "elasticmapreduce.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-East (Northern Virginia)"
-		}, 
+		},
 		{
-		    "endpoint": "elasticmapreduce.us-west-1.amazonaws.com", 
-		    "name": "us-west-1", 
+		    "endpoint": "elasticmapreduce.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Northern California)"
-		}, 
+		},
 		{
-		    "endpoint": "elasticmapreduce.us-west-2.amazonaws.com", 
-		    "name": "us-west-2", 
+		    "endpoint": "elasticmapreduce.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Oregon)"
-		}, 
+		},
 		{
-		    "endpoint": "elasticmapreduce.sa-east-1.amazonaws.com", 
+		    "endpoint": "elasticmapreduce.sa-east-1.amazonaws.com",
 		    "name": "sa-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "South America (Sao Paulo)"
-		}, 
+		},
 		{
-		    "endpoint": "elasticmapreduce.eu-west-1.amazonaws.com", 
-		    "name": "eu-west-1", 
+		    "endpoint": "elasticmapreduce.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "EU (Ireland)"
 		},
 		{
-		    "endpoint": "elasticmapreduce.ap-southeast-1.amazonaws.com", 
-		    "name": "ap-southeast-1", 
+		    "endpoint": "elasticmapreduce.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
-		    "endpoint": "elasticmapreduce.ap-northeast-1.amazonaws.com", 
-		    "name": "ap-northeast-1", 
+		    "endpoint": "elasticmapreduce.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Tokyo)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"Flexible Payment Service" : {
@@ -682,30 +682,72 @@
 	    "regions": [
 		{
 		    "endpoint": "authorize.payments-sandbox.amazon.com/cobranded-ui/actions/start",
-		    "name": "sandbox", 
+		    "name": "sandbox",
 		    "protocols": ["HTTPS"],
 		    "description": "Sandbox for Co-Branded service requests."
-		}, 
+		},
 		{
 		    "endpoint": "authorize.payments.amazon.com/cobranded-ui/actions/start",
-		    "name": "production", 
+		    "name": "production",
 		    "protocols": ["HTTPS"],
 		    "description": "Production for Co-Branded service requests."
-		}, 
+		},
 		{
 		    "endpoint": "fps.sandbox.amazonaws.com",
-		    "name": "sandbox", 
+		    "name": "sandbox",
 		    "protocols": ["HTTPS"],
 		    "description": "Sandbox for FPS actions"
-		}, 
+		},
 		{
 		    "endpoint": "fps.amazonaws.com",
-		    "name": "production", 
+		    "name": "production",
 		    "protocols": ["HTTPS"],
 		    "description": "Production for FPS actions"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
+	    "port": 443
+	},
+	"Glacier" : {
+	    "name": "glacier",
+	    "api_name": "glacier",
+	    "description": "Glacier",
+	    "authentication": "sign-v4",
+	    "api_version" : "2012-06-01",
+	    "status" : "production",
+	    "regions": [
+		{
+		    "endpoint": "glacier.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "US-East (Northern Virginia)"
+		},
+		{
+		    "endpoint": "glacier.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "US-West (Northern California)"
+		},
+		{
+		    "endpoint": "glacier.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "US-West (Oregon)"
+		},
+		{
+		    "endpoint": "glacier.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "EU (Ireland)"
+		},
+		{
+		    "endpoint": "glacier.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Tokyo)"
+		}
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"Identity & Access Management" : {
@@ -717,13 +759,13 @@
 	    "status" : "production",
 	    "regions": [
 		{
-		    "endpoint": "iam.amazonaws.com", 
-		    "name": "universal", 
+		    "endpoint": "iam.amazonaws.com",
+		    "name": "universal",
 		    "protocols": ["HTTPS"],
 		    "description": "Universal endpoint"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"Import/Export" : {
@@ -735,13 +777,13 @@
 	    "status" : "production",
 	    "regions": [
 		{
-		    "endpoint": "importexport.amazonaws.com", 
-		    "name": "universal", 
+		    "endpoint": "importexport.amazonaws.com",
+		    "name": "universal",
 		    "protocols": ["HTTPS"],
 		    "description": "Universal endpoint"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"Mechanical Turk" : {
@@ -753,13 +795,13 @@
 	    "status" : "beta",
 	    "regions": [
 		{
-		    "endpoint": "mechanicalturk.amazonaws.com", 
-		    "name": "universal", 
+		    "endpoint": "mechanicalturk.amazonaws.com",
+		    "name": "universal",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Universal endpoint"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"Relational Data Service" : {
@@ -771,49 +813,49 @@
 	    "status" : "production",
 	    "regions": [
 		{
-		    "endpoint": "rds.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "rds.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
 		    "protocols": ["HTTPS"],
 		    "description": "US-East (Northern Virginia)"
-		}, 
+		},
 		{
-		    "endpoint": "rds.us-west-1.amazonaws.com", 
-		    "name": "us-west-1", 
+		    "endpoint": "rds.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
 		    "protocols": ["HTTPS"],
 		    "description": "US-West (Northern California)"
-		}, 
+		},
 		{
-		    "endpoint": "rds.us-west-2.amazonaws.com", 
-		    "name": "us-west-2", 
+		    "endpoint": "rds.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
 		    "protocols": ["HTTPS"],
 		    "description": "US-West (Oregon)"
-		}, 
+		},
 		{
-		    "endpoint": "rds.sa-east-1.amazonaws.com", 
+		    "endpoint": "rds.sa-east-1.amazonaws.com",
 		    "name": "sa-east-1",
 		    "protocols": ["HTTPS"],
 		    "description": "South America (Sao Paulo)"
-		}, 
+		},
 		{
-		    "endpoint": "rds.eu-west-1.amazonaws.com", 
-		    "name": "eu-west-1", 
+		    "endpoint": "rds.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
 		    "protocols": ["HTTPS"],
 		    "description": "EU (Ireland)"
-		}, 
+		},
 		{
-		    "endpoint": "rds.ap-southeast-1.amazonaws.com", 
-		    "name": "ap-southeast-1", 
+		    "endpoint": "rds.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS"],
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
-		    "endpoint": "rds.ap-northeast-1.amazonaws.com", 
-		    "name": "ap-northeast-1", 
+		    "endpoint": "rds.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS"],
 		    "description": "Asia Pacific (Tokyo)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"Route 53" : {
@@ -825,13 +867,13 @@
 	    "status" : "production",
 	    "regions": [
 		{
-		    "endpoint": "route53.amazonaws.com", 
-		    "name": "universal", 
+		    "endpoint": "route53.amazonaws.com",
+		    "name": "universal",
 		    "protocols": ["HTTPS"],
 		    "description": "Universal endpoint"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"Security Token Service" : {
@@ -843,13 +885,13 @@
 	    "status" : "beta",
 	    "regions": [
 		{
-		    "endpoint": "sts.amazonaws.com", 
-		    "name": "universal", 
+		    "endpoint": "sts.amazonaws.com",
+		    "name": "universal",
 		    "protocols": ["HTTPS"],
 		    "description": "Universal endpoint"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"Simple Email Service" : {
@@ -861,13 +903,13 @@
 	    "status" : "beta",
 	    "regions": [
 		{
-		    "endpoint": "email.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "email.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
 		    "protocols": ["HTTPS", "SMTP"],
 		    "description": "US-East (Northern Virginia)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"SimpleDB" : {
@@ -879,49 +921,49 @@
 	    "status" : "beta",
 	    "regions": [
 		{
-		    "endpoint": "sdb.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "sdb.amazonaws.com",
+		    "name": "us-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-East (Northern Virginia)"
-		}, 
+		},
 		{
-		    "endpoint": "sdb.us-west-1.amazonaws.com", 
-		    "name": "us-west-1", 
+		    "endpoint": "sdb.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Northern California)"
-		}, 
+		},
 		{
-		    "endpoint": "sdb.us-west-2.amazonaws.com", 
-		    "name": "us-west-2", 
+		    "endpoint": "sdb.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Oregon)"
-		}, 
+		},
 		{
-		    "endpoint": "sdb.sa-east-1.amazonaws.com", 
-		    "name": "sa-east-1", 
+		    "endpoint": "sdb.sa-east-1.amazonaws.com",
+		    "name": "sa-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "South America (Sao Paulo)"
-		}, 
+		},
 		{
-		    "endpoint": "sdb.eu-west-1.amazonaws.com", 
-		    "name": "eu-west-1", 
+		    "endpoint": "sdb.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "EU (Ireland)"
-		}, 
+		},
 		{
-		    "endpoint": "sdb.ap-southeast-1.amazonaws.com", 
-		    "name": "ap-southeast-1", 
+		    "endpoint": "sdb.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
-		    "endpoint": "sdb.ap-northeast-1.amazonaws.com", 
-		    "name": "ap-northeast-1", 
+		    "endpoint": "sdb.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Tokyo)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"Simple Notification Service" : {
@@ -933,49 +975,49 @@
 	    "status" : "beta",
 	    "regions": [
 		{
-		    "endpoint": "sns.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "sns.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-East (Northern Virginia)"
-		}, 
+		},
 		{
-		    "endpoint": "sns.us-west-1.amazonaws.com", 
-		    "name": "us-west-1", 
+		    "endpoint": "sns.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Northern California)"
-		}, 
+		},
 		{
-		    "endpoint": "sns.us-west-2.amazonaws.com", 
-		    "name": "us-west-2", 
+		    "endpoint": "sns.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Oregon)"
-		}, 
+		},
 		{
-		    "endpoint": "sns.sa-east-1.amazonaws.com", 
-		    "name": "sa-east-1", 
+		    "endpoint": "sns.sa-east-1.amazonaws.com",
+		    "name": "sa-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "South America (Sao Paulo)"
-		}, 
+		},
 		{
-		    "endpoint": "sns.eu-west-1.amazonaws.com", 
-		    "name": "eu-west-1", 
+		    "endpoint": "sns.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "EU (Ireland)"
-		}, 
+		},
 		{
-		    "endpoint": "sns.ap-southeast-1.amazonaws.com", 
-		    "name": "ap-southeast-1", 
+		    "endpoint": "sns.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
-		    "endpoint": "sns.ap-northeast-1.amazonaws.com", 
-		    "name": "ap-northeast-1", 
+		    "endpoint": "sns.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Tokyo)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"Simple Queue Service" : {
@@ -987,49 +1029,49 @@
 	    "status" : "production",
 	    "regions": [
 		{
-		    "endpoint": "sqs.us-east-1.amazonaws.com", 
+		    "endpoint": "sqs.us-east-1.amazonaws.com",
 		    "name": "us-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-East (Northern Virginia)"
-		}, 
+		},
 		{
-		    "endpoint": "sqs.us-west-1.amazonaws.com", 
-		    "name": "us-west-1", 
+		    "endpoint": "sqs.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Northern California)"
-		}, 
+		},
 		{
-		    "endpoint": "sqs.us-west-2.amazonaws.com", 
-		    "name": "us-west-2", 
+		    "endpoint": "sqs.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Oregon)"
-		}, 
+		},
 		{
-		    "endpoint": "sqs.sa-east-1.amazonaws.com", 
-		    "name": "sa-east-1", 
+		    "endpoint": "sqs.sa-east-1.amazonaws.com",
+		    "name": "sa-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "South America (Sao Paulo)"
-		}, 
+		},
 		{
-		    "endpoint": "sqs.eu-west-1.amazonaws.com", 
-		    "name": "eu-west-1", 
+		    "endpoint": "sqs.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "EU (Ireland)"
-		}, 
+		},
 		{
-		    "endpoint": "sqs.ap-southeast-1.amazonaws.com", 
-		    "name": "ap-southeast-1", 
+		    "endpoint": "sqs.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
-		    "endpoint": "sqs.ap-northeast-1.amazonaws.com", 
-		    "name": "ap-northeast-1", 
+		    "endpoint": "sqs.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Tokyo)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"Simple Storage Service" : {
@@ -1041,44 +1083,44 @@
 	    "status" : "production",
 	    "regions": [
 		{
-		    "endpoint": "s3.amazonaws.com", 
-		    "name": "", 
+		    "endpoint": "s3.amazonaws.com",
+		    "name": "",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US Standard"
-		}, 
+		},
 		{
-		    "endpoint": "s3-us-west-1.amazonaws.com", 
-		    "name": "us-west-1", 
+		    "endpoint": "s3-us-west-1.amazonaws.com",
+		    "name": "us-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Northern California)"
-		}, 
+		},
 		{
-		    "endpoint": "s3-us-west-2.amazonaws.com", 
-		    "name": "us-west-2", 
+		    "endpoint": "s3-us-west-2.amazonaws.com",
+		    "name": "us-west-2",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Oregon)"
-		}, 
+		},
 		{
-		    "endpoint": "s3.sa-east-1.amazonaws.com", 
-		    "name": "sa-east-1", 
+		    "endpoint": "s3.sa-east-1.amazonaws.com",
+		    "name": "sa-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "South America (Sao Paulo)"
-		}, 
+		},
 		{
-		    "endpoint": "s3-eu-west-1.amazonaws.com", 
-		    "name": "eu-west-1", 
+		    "endpoint": "s3-eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "EU (Ireland)"
-		}, 
+		},
 		{
-		    "endpoint": "s3-ap-southeast-1.amazonaws.com", 
-		    "name": "ap-southeast-1", 
+		    "endpoint": "s3-ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
-		    "endpoint": "s3-ap-northeast-1.amazonaws.com", 
-		    "name": "ap-northeast-1", 
+		    "endpoint": "s3-ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Tokyo)"
 		}
@@ -1093,34 +1135,34 @@
 		    "endpoint": "s3-website-us-west-2.amazonaws.com",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Northern California)"
-		}, 
+		},
 		{
-		    "endpoint": "s3-website-us-west-2.amazonaws.com", 
+		    "endpoint": "s3-website-us-west-2.amazonaws.com",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Oregon)"
-		}, 
+		},
 		{
-		    "endpoint": "s3-website.sa-east-1.amazonaws.com", 
+		    "endpoint": "s3-website.sa-east-1.amazonaws.com",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "South America (Sao Paulo)"
-		}, 
+		},
 		{
-		    "endpoint": "s3-website-eu-west-1.amazonaws.com", 
+		    "endpoint": "s3-website-eu-west-1.amazonaws.com",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "EU (Ireland)"
-		}, 
+		},
 		{
-		    "endpoint": "s3-website-ap-southeast-1.amazonaws.com", 
+		    "endpoint": "s3-website-ap-southeast-1.amazonaws.com",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
-		    "endpoint": "s3-website-ap-northeast-1.amazonaws.com", 
+		    "endpoint": "s3-website-ap-northeast-1.amazonaws.com",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Tokyo)"
 		}
             ],
-	    "path": "/", 
+	    "path": "/",
 	    "port": 443
 	},
 	"Simple Worflow" : {
@@ -1132,13 +1174,13 @@
 	    "status" : "beta",
 	    "regions": [
 		{
-		    "endpoint": "swf.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "swf.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
 		    "protocols": ["HTTPS"],
 		    "description": "US-East (Northern Virginia)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	},
 	"Virtual Private Cloud" : {
@@ -1150,52 +1192,52 @@
 	    "status" : "production",
 	    "regions": [
 		{
-		    "endpoint": "ec2.us-east-1.amazonaws.com", 
-		    "name": "us-east-1", 
+		    "endpoint": "ec2.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
 		    "protocols": ["HTTPS"],
 		    "description": "US-East (Northern Virginia)"
-		}, 
+		},
 		{
-		    "endpoint": "ec2.us-west-1.amazonaws.com", 
-		    "name": "us-west-1", 
+		    "endpoint": "ec2.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
 		    "protocols": ["HTTPS"],
 		    "description": "US-West (Northern California)"
 		},
 		{
-		    "endpoint": "ec2.us-west-2.amazonaws.com", 
-		    "name": "us-west-2", 
+		    "endpoint": "ec2.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
 		    "protocols": ["HTTPS"],
 		    "description": "US-West (Oregon)"
 		},
 		{
-		    "endpoint": "vpc.sa-east-1.amazonaws.com", 
-		    "name": "sa-east-1", 
+		    "endpoint": "vpc.sa-east-1.amazonaws.com",
+		    "name": "sa-east-1",
 		    "protocols": ["HTTPS"],
 		    "description": "South America (Sao Paulo)"
-		}, 
+		},
 		{
-		    "endpoint": "ec2.eu-west-1.amazonaws.com", 
-		    "name": "eu-west-1", 
+		    "endpoint": "ec2.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
 		    "protocols": ["HTTPS"],
 		    "description": "EU (Ireland)"
 		},
 		{
-		    "endpoint": "ec2.ap-southeast-1.amazonaws.com", 
-		    "name": "ap-southeast-1", 
+		    "endpoint": "ec2.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS"],
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
-		    "endpoint": "ec2.ap-northeast-1.amazonaws.com", 
-		    "name": "ap-northeast-1", 
+		    "endpoint": "ec2.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS"],
 		    "description": "Asia Pacific (Tokyo)"
 		}
-	    ], 
-	    "path": "/", 
+	    ],
+	    "path": "/",
 	    "port": 443
 	}
     }
 }
 
-    
+
