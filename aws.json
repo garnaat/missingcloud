@@ -468,6 +468,7 @@
 		    "ramMB" : 1700,
 		    "storageGB" : [10, 160],
 		    "i/o" : "moderate",
+		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [32,64]},
 		"m1.medium" : {
 		    "compute_units" : 2,
@@ -475,6 +476,7 @@
 		    "ramMB" : 3750,
 		    "storageGB" : [10, 410],
 		    "i/o" : "moderate",
+		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [32,64]},
 		"m1.large" : {
 		    "compute_units" : 4,
@@ -482,6 +484,7 @@
 		    "ramMB" : 7500,
 		    "storageGB" : [10, 420, 420],
 		    "i/o" : "high",
+		    "ebs_optimized_iopsMbps" : 500,
 		    "arch" : [64]},
 		"m1.xlarge" : {
 		    "compute_units" : 8,
@@ -489,6 +492,7 @@
 		    "ramMB" : 15000,
 		    "storageGB" : [10, 420, 420, 420, 420],
 		    "i/o" : "high",
+		    "ebs_optimized_iopsMbps" : 1000,
 		    "arch" : [64]},
 		"t1.micro" : {
 		    "compute_units" : 2,
@@ -496,6 +500,7 @@
 		    "ramMB" : 613,
 		    "storage" : [],
 		    "i/o" : "low",
+		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [32,64]},
 		"c1.medium" : {
 		    "compute_units" : 5,
@@ -503,6 +508,7 @@
 		    "ramMB" : 1700,
 		    "storageGB" : [10, 350],
 		    "i/o" : "moderate",
+		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [32,64]},
 		"c1.xlarge" : {
 		    "compute_units" : 20,
@@ -510,6 +516,7 @@
 		    "ramMB" : 7000,
 		    "storageGB" : [10, 420, 420, 420, 420],
 		    "i/o" : "high",
+		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [64]},
 		"m2.xlarge" : {
 		    "compute_units" : 6.5,
@@ -517,6 +524,7 @@
 		    "ramMB" : 17100,
 		    "storageGB" : [10, 420],
 		    "i/o" : "moderate",
+		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [64]},
 		"m2.2xlarge" : {
 		    "compute_units" : 13,
@@ -524,6 +532,7 @@
 		    "ramMB" : 34200,
 		    "storageGB" : [10, 840],
 		    "i/o" : "high",
+		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [64]},
 		"m2.4xlarge" : {
 		    "compute_units" : 26,
@@ -531,6 +540,7 @@
 		    "ramMB" : 68400,
 		    "storageGB" : [10, 840, 840],
 		    "i/o" : "high",
+		    "ebs_optimized_iopsMbps" : 1000,
 		    "arch" : [64]},
 		"cc1.4xlarge" : {
 		    "compute_units" : 33.5,
@@ -538,6 +548,7 @@
 		    "ramMB" : 23000,
 		    "storageGB" : [10, 840, 840],
 		    "i/o" : "very high",
+		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [64]},
 		"cc2.8xlarge" : {
 		    "compute_units" : 88,
@@ -545,6 +556,7 @@
 		    "ramMB" : 60500,
 		    "storageGB" : [10, 840, 840, 840, 840],
 		    "i/o" : "very high",
+		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [64]},
 		"cg1.4xlarge" : {
 		    "compute_units" : 33.5,
@@ -552,6 +564,7 @@
 		    "ramMB" : 22000,
 		    "storageGB" : [10, 840, 840],
 		    "i/o" : "very high",
+		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [64]},
 		"hi1.4xlarge" : {
 		    "compute_units" : 35,
@@ -559,6 +572,7 @@
 		    "ramMB" : 60500,
 		    "storageGB" : [10, 1024, 1024],
 		    "i/o" : "very high",
+		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [64]}
 	    },
 	    "path": "/",
