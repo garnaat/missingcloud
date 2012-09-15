@@ -470,6 +470,7 @@
 	    "instance_types" : {
 		"m1.small" : {
 		    "compute_units" : 1,
+		    "cores" : 1,
 		    "gpus" : 0,
 		    "ramMB" : 1700,
 		    "storageGB" : [10, 160],
@@ -478,6 +479,7 @@
 		    "arch" : [32,64]},
 		"m1.medium" : {
 		    "compute_units" : 2,
+		    "cores" : 1,
 		    "gpus" : 0,
 		    "ramMB" : 3750,
 		    "storageGB" : [10, 410],
@@ -486,6 +488,7 @@
 		    "arch" : [32,64]},
 		"m1.large" : {
 		    "compute_units" : 4,
+		    "cores" : 2,
 		    "gpus" : 0,
 		    "ramMB" : 7500,
 		    "storageGB" : [10, 420, 420],
@@ -494,6 +497,7 @@
 		    "arch" : [64]},
 		"m1.xlarge" : {
 		    "compute_units" : 8,
+		    "cores" : 4,
 		    "gpus" : 0,
 		    "ramMB" : 15000,
 		    "storageGB" : [10, 420, 420, 420, 420],
@@ -502,6 +506,7 @@
 		    "arch" : [64]},
 		"t1.micro" : {
 		    "compute_units" : 2,
+		    "cores" : 1,
 		    "gpus" : 0,
 		    "ramMB" : 613,
 		    "storage" : [],
@@ -510,6 +515,7 @@
 		    "arch" : [32,64]},
 		"c1.medium" : {
 		    "compute_units" : 5,
+		    "cores" : 2,
 		    "gpus" : 0,
 		    "ramMB" : 1700,
 		    "storageGB" : [10, 350],
@@ -518,6 +524,7 @@
 		    "arch" : [32,64]},
 		"c1.xlarge" : {
 		    "compute_units" : 20,
+		    "cores" : 8,
 		    "gpus" : 0,
 		    "ramMB" : 7000,
 		    "storageGB" : [10, 420, 420, 420, 420],
@@ -526,6 +533,7 @@
 		    "arch" : [64]},
 		"m2.xlarge" : {
 		    "compute_units" : 6.5,
+		    "cores" : 2,
 		    "gpus" : 0,
 		    "ramMB" : 17100,
 		    "storageGB" : [10, 420],
@@ -534,6 +542,7 @@
 		    "arch" : [64]},
 		"m2.2xlarge" : {
 		    "compute_units" : 13,
+		    "cores" : 4,
 		    "gpus" : 0,
 		    "ramMB" : 34200,
 		    "storageGB" : [10, 840],
@@ -542,6 +551,7 @@
 		    "arch" : [64]},
 		"m2.4xlarge" : {
 		    "compute_units" : 26,
+		    "cores" : 8,
 		    "gpus" : 0,
 		    "ramMB" : 68400,
 		    "storageGB" : [10, 840, 840],
@@ -550,6 +560,7 @@
 		    "arch" : [64]},
 		"cc1.4xlarge" : {
 		    "compute_units" : 33.5,
+		    "cores" : 8,
 		    "gpus" : 0,
 		    "ramMB" : 23000,
 		    "storageGB" : [10, 840, 840],
@@ -558,6 +569,7 @@
 		    "arch" : [64]},
 		"cc2.8xlarge" : {
 		    "compute_units" : 88,
+		    "cores" : 16,
 		    "gpus" : 0,
 		    "ramMB" : 60500,
 		    "storageGB" : [10, 840, 840, 840, 840],
@@ -566,6 +578,7 @@
 		    "arch" : [64]},
 		"cg1.4xlarge" : {
 		    "compute_units" : 33.5,
+		    "cores" : 8,
 		    "gpus" : 2,
 		    "ramMB" : 22000,
 		    "storageGB" : [10, 840, 840],
@@ -574,6 +587,7 @@
 		    "arch" : [64]},
 		"hi1.4xlarge" : {
 		    "compute_units" : 35,
+		    "cores" : 16,
 		    "gpus" : 0,
 		    "ramMB" : 60500,
 		    "storageGB" : [10, 1024, 1024],
