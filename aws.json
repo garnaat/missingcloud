@@ -295,9 +295,15 @@
 		},
 		{
 		    "endpoint": "elasticbeanstalk.ap-northeast-1.amazonaws.com",
-		    "name": "us-east-1",
+		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS"],
 		    "description": "Asia Pacific (Tokyo)"
+		},
+		{
+		    "endpoint": "elasticbeanstalk.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
+		    "protocols": ["HTTPS"],
+		    "description": "Asia Pacific (Singapore)"
 		},
 		{
 		    "endpoint": "elasticbeanstalk.eu-west-1.amazonaws.com",
