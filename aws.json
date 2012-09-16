@@ -560,7 +560,7 @@
 		    "arch" : [64]},
 		"cc1.4xlarge" : {
 		    "compute_units" : 33.5,
-		    "cores" : 8,
+		    "cores" : 16,
 		    "gpus" : 0,
 		    "ramMB" : 23000,
 		    "storageGB" : [10, 840, 840],
@@ -569,7 +569,7 @@
 		    "arch" : [64]},
 		"cc2.8xlarge" : {
 		    "compute_units" : 88,
-		    "cores" : 16,
+		    "cores" : 32,
 		    "gpus" : 0,
 		    "ramMB" : 60500,
 		    "storageGB" : [10, 840, 840, 840, 840],
@@ -578,7 +578,7 @@
 		    "arch" : [64]},
 		"cg1.4xlarge" : {
 		    "compute_units" : 33.5,
-		    "cores" : 8,
+		    "cores" : 16,
 		    "gpus" : 2,
 		    "ramMB" : 22000,
 		    "storageGB" : [10, 840, 840],
