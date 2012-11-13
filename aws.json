@@ -48,6 +48,12 @@
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
+		    "endpoint": "autoscaling.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)"
+		},
+		{
 		    "endpoint": "autoscaling.ap-northeast-1.amazonaws.com",
 		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
@@ -100,6 +106,12 @@
 		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS"],
 		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "cloudformation.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)"
 		},
 		{
 		    "endpoint": "cloudformation.ap-northeast-1.amazonaws.com",
@@ -192,6 +204,12 @@
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
+		    "endpoint": "monitoring.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)"
+		},
+		{
 		    "endpoint": "monitoring.ap-northeast-1.amazonaws.com",
 		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
@@ -258,6 +276,12 @@
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
+		    "endpoint": "dynamodb.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)"
+		},
+		{
 		    "endpoint": "dynamodb.eu-west-1.amazonaws.com",
 		    "name": "eu-west-1",
 		    "protocols": ["HTTPS", "HTTP"],
@@ -304,6 +328,12 @@
 		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS"],
 		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "elasticbeanstalk.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)"
 		},
 		{
 		    "endpoint": "elasticbeanstalk.eu-west-1.amazonaws.com",
@@ -382,23 +412,21 @@
 		    "name": "us-east-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-East (Northern Virginia)",
-		    "ip_ranges" : ["216.182.224.0/20",
-		    		    "72.44.32.0/19",
-				    "67.202.0.0/18",
-				    "75.101.128.0/17",
-				    "174.129.0.0/16",
-				    "204.236.192.0/18",
-				    "184.73.0.0/16",
-				    "184.72.128.0/17",
-				    "184.72.64.0/18",
-				    "50.16.0.0/15",
-                                    "50.19.0.0/16",
-                                    "107.20.0.0/15",
-				    "107.22.0.0/16",
-				    "23.20.0.0/14",
-				    "54.242.0.0/15",
-				    "54.234.0.0/15",
-				    "54.236.0.0/15"]
+		    "ip_ranges" : ["72.44.32.0/19",
+				   "67.202.0.0/18",
+				   "75.101.128.0/17",
+				   "174.129.0.0/16",
+				   "204.236.192.0/18",
+				   "184.73.0.0/16",
+				   "184.72.128.0/17",
+				   "184.72.64.0/18",
+				   "50.16.0.0/15",
+                                   "50.19.0.0/16",
+                                   "107.20.0.0/15",
+				   "23.20.0.0/14",
+				   "54.242.0.0/15",
+				   "54.234.0.0/15",
+				   "54.236.0.0/15"]
 		},
 		{
 		    "endpoint": "ec2.us-west-1.amazonaws.com",
@@ -449,10 +477,16 @@
 		    "description": "Asia Pacific (Singapore)",
 		    "ip_ranges" : ["175.41.128.0/18",
 				   "122.248.192.0/18",
-                                   "46.137.224.0/19",
 				   "46.51.216.0/21",
 				   "46.137.192.0/18",
 				   "54.251.0.0/16"]
+		},
+		{
+		    "endpoint": "ec2.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)",
+		    "ip_ranges": ["55.252.0.0/16"]
 		},
 		{
 		    "endpoint": "ec2.ap-northeast-1.amazonaws.com",
@@ -483,7 +517,7 @@
 		    "gpus" : 0,
 		    "ramMB" : 3750,
 		    "storageGB" : [10, 410],
-		    "i/o" : "moderate",
+		    "i/o" : moderate",
 		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [32,64]},
 		"m1.large" : {
@@ -643,6 +677,12 @@
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
+		    "endpoint": "elasticloadbalancing.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)"
+		},
+		{
 		    "endpoint": "elasticloadbalancing.ap-northeast-1.amazonaws.com",
 		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
@@ -695,6 +735,12 @@
 		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "elasticmapreduce.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)"
 		},
 		{
 		    "endpoint": "elasticmapreduce.ap-northeast-1.amazonaws.com",
@@ -883,6 +929,12 @@
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
+		    "endpoint": "rds.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)"
+		},
+		{
 		    "endpoint": "rds.ap-northeast-1.amazonaws.com",
 		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS"],
@@ -991,6 +1043,12 @@
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
+		    "endpoint": "sdb.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)"
+		},
+		{
 		    "endpoint": "sdb.ap-northeast-1.amazonaws.com",
 		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
@@ -1043,6 +1101,12 @@
 		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "sns.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)"
 		},
 		{
 		    "endpoint": "sns.ap-northeast-1.amazonaws.com",
@@ -1099,6 +1163,12 @@
 		    "description": "Asia Pacific (Singapore)"
 		},
 		{
+		    "endpoint": "sqs.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)"
+		},
+		{
 		    "endpoint": "sqs.ap-northeast-1.amazonaws.com",
 		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
@@ -1151,6 +1221,12 @@
 		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "s3-ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)"
 		},
 		{
 		    "endpoint": "s3-ap-northeast-1.amazonaws.com",
@@ -1217,6 +1293,66 @@
 	    "path": "/",
 	    "port": 443
 	},
+	"Storage Gateway" : {
+	    "name": "storagegateway",
+	    "api_name": "storagegateway",
+	    "description": "",
+	    "authentication": "sign-v2",
+	    "api_version" : "2012-06-30",
+	    "status" : "production",
+	    "regions": [
+		{
+		    "endpoint": "storagegateway.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "US-East (Northern Virginia)"
+		},
+		{
+		    "endpoint": "storagegateway.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "US-West (Northern California)"
+		},
+		{
+		    "endpoint": "storagegateway.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "US-West (Oregon)"
+		},
+		{
+		    "endpoint": "storagegateway.sa-east-1.amazonaws.com",
+		    "name": "sa-east-1",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "South America (Sao Paulo)"
+		},
+		{
+		    "endpoint": "storagegateway.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "EU (Ireland)"
+		},
+		{
+		    "endpoint": "storagegateway.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "storagegateway.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)"
+		},
+		{
+		    "endpoint": "storagegateway.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Tokyo)"
+		}
+	    ],
+	    "path": "/",
+	    "port": 443
+	},
 	"Virtual Private Cloud" : {
 	    "name": "vpc",
 	    "api_name": "ec2",
@@ -1260,6 +1396,12 @@
 		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS"],
 		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "ec2.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)"
 		},
 		{
 		    "endpoint": "ec2.ap-northeast-1.amazonaws.com",
