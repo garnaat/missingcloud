@@ -517,7 +517,7 @@
 		    "gpus" : 0,
 		    "ramMB" : 3750,
 		    "storageGB" : [10, 410],
-		    "i/o" : moderate",
+		    "i/o" : "moderate",
 		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [32,64]},
 		"m1.large" : {
@@ -1415,5 +1415,3 @@
 	}
     }
 }
-
-
