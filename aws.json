@@ -645,6 +645,15 @@
 		    "storageGB" : [10, 1024, 1024],
 		    "i/o" : "very high",
 		    "ebs_optimized_iopsMbps" : 0,
+		    "arch" : [64]},
+		"hs1.8xlarge" : {
+		    "compute_units" : 35,
+		    "cores" : 16,
+		    "gpus" : 0,
+		    "ramMB" : 117000,
+		    "storageGB" : [10, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048, 2048],
+		    "i/o" : "very high",
+		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [64]}
 	    },
 	    "path": "/",
