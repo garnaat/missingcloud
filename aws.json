@@ -1269,7 +1269,7 @@
 		    "description": "US Standard"
 		},
 		{
-		    "endpoint": "s3-website-us-west-2.amazonaws.com",
+		    "endpoint": "s3-website-us-west-1.amazonaws.com",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "US-West (Northern California)"
 		},
@@ -1292,6 +1292,11 @@
 		    "endpoint": "s3-website-ap-southeast-1.amazonaws.com",
 		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "s3-website-ap-southeast-2.amazonaws.com",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Sydney)"
 		},
 		{
 		    "endpoint": "s3-website-ap-northeast-1.amazonaws.com",
