@@ -1315,6 +1315,48 @@
 		    "name": "us-east-1",
 		    "protocols": ["HTTPS"],
 		    "description": "US-East (Northern Virginia)"
+		},
+		{
+		    "endpoint": "swf.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
+		    "protocols": ["HTTPS"],
+		    "description": "US West (Northern California)"
+		},
+		{
+		    "endpoint": "swf.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
+		    "protocols": ["HTTPS"],
+		    "description": "US West (Oregon)"
+		},
+		{
+		    "endpoint": "swf.sa-east-1.amazonaws.com",
+		    "name": "sa-east-1",
+		    "protocols": ["HTTPS"],
+		    "description": "South America (Sao Paulo)"
+		},
+		{
+		    "endpoint": "swf.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
+		    "protocols": ["HTTPS"],
+		    "description": "EU (Ireland)"
+		},
+		{
+		    "endpoint": "swf.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
+		    "protocols": ["HTTPS"],
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "swf.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS"],
+		    "description": "Asia Pacific (Sydney)"
+		},
+		{
+		    "endpoint": "swf.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
+		    "protocols": ["HTTPS"],
+		    "description": "Asia Pacific (Tokyo)"
 		}
 	    ],
 	    "path": "/",
