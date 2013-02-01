@@ -219,6 +219,24 @@
 	    "path": "/",
 	    "port": 443
 	},
+	"Data Pipeline" : {
+	    "name": "datapipeline",
+	    "api_name": "datapipeline",
+	    "description": "",
+	    "authentication": "hmac-v4",
+	    "api_version" : "2012-10-29",
+	    "status" : "beta",
+	    "regions": [
+		{
+		    "endpoint": "datapipeline.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
+		    "protocols": ["HTTPS"],
+		    "description": "US-East (Northern Virginia)"
+		}
+	    ],
+	    "path": "/",
+	    "port": 443
+	},
 	"DevPay" : {
 	    "name": "devpay",
 	    "api_name": "ls",
@@ -241,7 +259,7 @@
 	    "name": "dynamodb",
 	    "api_name": "dynamodb",
 	    "description": "",
-	    "authentication": "hmac-v3-http",
+	    "authentication": "sigv4",
 	    "api_version" : "20111205",
 	    "status" : "beta",
 	    "regions": [
@@ -339,6 +357,54 @@
 		    "endpoint": "elasticbeanstalk.eu-west-1.amazonaws.com",
 		    "name": "eu-west-1",
 		    "protocols": ["HTTPS"],
+		    "description": "EU (Ireland)"
+		}
+	    ],
+	    "path": "/",
+	    "port": 443
+	},
+	"Elastic Transcoder" : {
+	    "name": "elastictranscoder",
+	    "api_name": "elastictranscoder",
+	    "description": "",
+	    "authentication": "sigv4",
+	    "api_version" : "2012-09-25",
+	    "status" : "beta",
+	    "regions": [
+		{
+		    "endpoint": "elastictranscoder.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "US-East (Northern Virginia)"
+		},
+		{
+		    "endpoint": "elastictranscoder.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "US-West (Northern California)"
+		},
+		{
+		    "endpoint": "elastictranscoder.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "US-West (Oregon)"
+		},
+		{
+		    "endpoint": "elastictranscoder.ap-northeast-1.amazonaws.com",
+		    "name": "ap-northeast-1",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Tokyo)"
+		},
+		{
+		    "endpoint": "elastictranscoder.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
+		    "protocols": ["HTTPS", "HTTP"],
+		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "elastictranscoder.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
+		    "protocols": ["HTTPS", "HTTP"],
 		    "description": "EU (Ireland)"
 		}
 	    ],
