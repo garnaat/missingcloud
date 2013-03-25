@@ -154,6 +154,30 @@
 		    "name": "us-east-1",
 		    "protocols": ["HTTPS"],
 		    "description": "US-East (Northern Virginia)"
+		},
+		{
+		    "endpoint": "cloudsearch.us-west-1.amazonaws.com",
+		    "name": "us-west-1",
+		    "protocols": ["HTTPS"],
+		    "description": "US-West (Northern California)"
+		},
+		{
+		    "endpoint": "cloudsearch.us-west-2.amazonaws.com",
+		    "name": "us-west-2",
+		    "protocols": ["HTTPS"],
+		    "description": "US-West (Oregon)"
+		},
+		{
+		    "endpoint": "cloudsearch.eu-west-1.amazonaws.com",
+		    "name": "eu-west-1",
+		    "protocols": ["HTTPS"],
+		    "description": "EU (Ireland)"
+		},
+		{
+		    "endpoint": "cloudsearch.ap-southeast-1.amazonaws.com",
+		    "name": "ap-southeast-1",
+		    "protocols": ["HTTPS"],
+		    "description": "Asia Pacific (Singapore)"
 		}
 	    ],
 	    "path": "/",
@@ -282,6 +306,12 @@
 		    "description": "US-West (Oregon)"
 		},
 		{
+		    "endpoint": "dynamodb.sa-east-1.amazonaws.com",
+		    "name": "sa-east-1",
+		    "protocols": ["HTTPS"],
+		    "description": "South America (Sao Paulo)"
+		},
+		{
 		    "endpoint": "dynamodb.ap-northeast-1.amazonaws.com",
 		    "name": "ap-northeast-1",
 		    "protocols": ["HTTPS", "HTTP"],
@@ -334,6 +364,12 @@
 		    "name": "us-west-2",
 		    "protocols": ["HTTPS"],
 		    "description": "US-West (Oregon)"
+		},
+		{
+		    "endpoint": "elasticbeanstalk.sa-east-1.amazonaws.com",
+		    "name": "sa-east-1",
+		    "protocols": ["HTTPS"],
+		    "description": "South America (Sao Paulo)"
 		},
 		{
 		    "endpoint": "elasticbeanstalk.ap-northeast-1.amazonaws.com",
@@ -454,6 +490,12 @@
 		    "name": "ap-southeast-1",
 		    "protocols": ["HTTPS"],
 		    "description": "Asia Pacific (Singapore)"
+		},
+		{
+		    "endpoint": "elasticache.ap-southeast-2.amazonaws.com",
+		    "name": "ap-southeast-2",
+		    "protocols": ["HTTPS"],
+		    "description": "Asia Pacific (Sydney)"
 		},
 		{
 		    "endpoint": "elasticache.ap-northeast-1.amazonaws.com",
