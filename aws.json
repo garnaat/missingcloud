@@ -1460,7 +1460,7 @@
 	    "path": "/",
 	    "port": 443
 	},
-	"Simple Worflow" : {
+	"Simple Workflow" : {
 	    "name": "swf",
 	    "api_name": "swf",
 	    "description": "",
