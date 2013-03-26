@@ -611,7 +611,7 @@
 		    "ramMB" : 15000,
 		    "storageGB" : [],
 		    "i/o" : "moderate",
-		    "ebs_optimized_iopsMbps" : 0,
+		    "ebs_optimized_iopsMbps" : 500,
 		    "arch" : [64]},
 		"m3.2xlarge" : {
 		    "compute_units" : 26,
@@ -620,7 +620,7 @@
 		    "ramMB" : 30000,
 		    "storageGB" : [],
 		    "i/o" : "high",
-		    "ebs_optimized_iopsMbps" : 0,
+		    "ebs_optimized_iopsMbps" : 1000,
 		    "arch" : [64]},
 		"t1.micro" : {
 		    "compute_units" : 2,
@@ -647,7 +647,7 @@
 		    "ramMB" : 7000,
 		    "storageGB" : [10, 420, 420, 420, 420],
 		    "i/o" : "high",
-		    "ebs_optimized_iopsMbps" : 0,
+		    "ebs_optimized_iopsMbps" : 1000,
 		    "arch" : [64]},
 		"m2.xlarge" : {
 		    "compute_units" : 6.5,
@@ -665,7 +665,7 @@
 		    "ramMB" : 34200,
 		    "storageGB" : [10, 840],
 		    "i/o" : "high",
-		    "ebs_optimized_iopsMbps" : 0,
+		    "ebs_optimized_iopsMbps" : 500,
 		    "arch" : [64]},
 		"m2.4xlarge" : {
 		    "compute_units" : 26,
