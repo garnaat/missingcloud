@@ -986,6 +986,42 @@
 	    "path": "/",
 	    "port": 443
 	},
+	"OpsWorks" : {
+	    "name": "opsworks",
+	    "api_name": "opsworks",
+	    "description": "",
+	    "authentication": "sign-v4",
+	    "api_version" : "2013-02-18",
+	    "status" : "beta",
+	    "regions": [
+		{
+		    "endpoint": "opsworks.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
+		    "protocols": ["HTTPS"],
+		    "description": "US-East (Northern Virginia)"
+		}
+	    ],
+	    "path": "/",
+	    "port": 443
+	},
+	"Redshift" : {
+	    "name": "redshift",
+	    "api_name": "redshift",
+	    "description": "",
+	    "authentication": "sign-v4",
+	    "api_version" : "2012-12-01",
+	    "status" : "beta",
+	    "regions": [
+		{
+		    "endpoint": "redshift.us-east-1.amazonaws.com",
+		    "name": "us-east-1",
+		    "protocols": ["HTTPS"],
+		    "description": "US-East (Northern Virginia)"
+		}
+	    ],
+	    "path": "/",
+	    "port": 443
+	},
 	"Relational Data Service" : {
 	    "name": "rds",
 	    "api_name": "rds",
