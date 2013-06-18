@@ -690,7 +690,7 @@
 		    "cores" : 1,
 		    "gpus" : 0,
 		    "ramMB" : 613,
-		    "storage" : [],
+		    "storageGB" : [],
 		    "i/o" : "low",
 		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [32,64]},
