@@ -766,6 +766,15 @@
 		    "i/o" : "very high",
 		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [64]},
+		"g2.2xlarge" : {
+		    "compute_units" : 26,
+		    "cores" : 8,
+		    "gpus" : 2,
+		    "ramMB" : 15000,
+		    "storageGB" : [10, 60],
+		    "i/o" : "high",
+		    "ebs_optimized_iopsMbps" : 1000,
+		    "arch" : [64]},
 		"cg1.4xlarge" : {
 		    "compute_units" : 33.5,
 		    "cores" : 16,
