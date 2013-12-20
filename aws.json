@@ -741,8 +741,8 @@
 		    "gpus" : 0,
 		    "ramMB" : 7500,
 		    "storageGB" : [10, 40, 40],
-		    "i/o" : "high",
-		    "ebs_optimized_iopsMbps" : 1000,
+		    "i/o" : "moderate",
+		    "ebs_optimized_iopsMbps" : 500,
 		    "arch" : [64]},
 		"c3.2xlarge" : {
 		    "compute_units" : 8,
@@ -760,7 +760,7 @@
 		    "ramMB" : 30000,
 		    "storageGB" : [10, 160, 160],
 		    "i/o" : "high",
-		    "ebs_optimized_iopsMbps" : 1000,
+		    "ebs_optimized_iopsMbps" : 2000,
 		    "arch" : [64]},
 		"c3.8xlarge" : {
 		    "compute_units" : 32,
@@ -768,7 +768,7 @@
 		    "gpus" : 0,
 		    "ramMB" : 60000,
 		    "storageGB" : [10, 320, 320],
-		    "i/o" : "high",
+		    "i/o" : "very high",
 		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [64]},
 		"m2.xlarge" : {
