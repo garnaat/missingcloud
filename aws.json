@@ -761,8 +761,8 @@
 		    "ebs_optimized_iopsMbps" : 0,
 		    "arch" : [64]},
 		"c3.xlarge" : {
-		    "compute_units" : 4,
-		    "cores" : 14,
+		    "compute_units" : 14,
+		    "cores" : 4,
 		    "gpus" : 0,
 		    "ramMB" : 7500,
 		    "storageGB" : [10, 40, 40],
@@ -770,8 +770,8 @@
 		    "ebs_optimized_iopsMbps" : 500,
 		    "arch" : [64]},
 		"c3.2xlarge" : {
-		    "compute_units" : 8,
-		    "cores" : 28,
+		    "compute_units" : 28,
+		    "cores" : 8,
 		    "gpus" : 0,
 		    "ramMB" : 15000,
 		    "storageGB" : [10, 80, 80],
@@ -779,8 +779,8 @@
 		    "ebs_optimized_iopsMbps" : 1000,
 		    "arch" : [64]},
 		"c3.4xlarge" : {
-		    "compute_units" : 16,
-		    "cores" : 55,
+		    "compute_units" : 55,
+		    "cores" : 16,
 		    "gpus" : 0,
 		    "ramMB" : 30000,
 		    "storageGB" : [10, 160, 160],
@@ -788,8 +788,8 @@
 		    "ebs_optimized_iopsMbps" : 2000,
 		    "arch" : [64]},
 		"c3.8xlarge" : {
-		    "compute_units" : 32,
-		    "cores" : 108,
+		    "compute_units" : 108,
+		    "cores" : 32,
 		    "gpus" : 0,
 		    "ramMB" : 60000,
 		    "storageGB" : [10, 320, 320],
