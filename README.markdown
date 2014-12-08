@@ -21,4 +21,8 @@ the project and send a pull request.
 
 ## IP Ranges
 
-The IP address ranges for each EC2 region were discovered using [this](https://gist.github.com/559397).
+The IP address ranges for each EC2 region were discovered using [this](https://gist.github.com/559397) and later maintained manually from the regularly 
+announced [Amazon EC2 Public IP Ranges](https://forums.aws.amazon.com/ann.jspa?annID=1701).
+
+* **NB**: The [AWS public IP address ranges are meanwhile programmatically available in JSON Form](http://aws.amazon.com/blogs/aws/aws-ip-ranges-json/) 
+and the ranges still listed herein are not completely up to date anymore - this is currently dicussed in [issue #28](https://github.com/garnaat/missingcloud/issues/28).
